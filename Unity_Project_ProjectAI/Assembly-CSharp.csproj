@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\system\VRM\DepthFirstScheduler\Functor.cs" />
     <Compile Include="Assets\system\VRM\DepthFirstScheduler\IEnumeratorExtensions.cs" />
     <Compile Include="Assets\system\VRM\DepthFirstScheduler\LockQueue.cs" />
@@ -301,6 +302,7 @@
     <Compile Include="Assets\system\VRM\UniVRM\Scripts\SpringBone\VRMSpringBone.cs" />
     <Compile Include="Assets\system\VRM\UniVRM\Scripts\SpringBone\VRMSpringBoneColliderGroup.cs" />
     <Compile Include="Assets\system\VRM\UniVRM\Scripts\SpringBone\VRMSpringUtility.cs" />
+    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <None Include="Assets\system\VRM\UniVRM\Resources\Shaders\VRMUnlitTransparent.shader" />
     <None Include="Assets\system\VRM\UniGLTF\Resources\Shaders\StandardVColor.shader" />
     <None Include="Assets\system\VRM\MToon\MToon\Resources\Shaders\MToonCore.cginc" />

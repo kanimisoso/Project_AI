@@ -131,6 +131,7 @@
     <Compile Include="Assets\system\VRM\UniVRM\Editor\Tests\VersionTests.cs" />
     <Compile Include="Assets\system\VRM\UniVRM\Editor\Tests\VRMBlendShapeKeyTest.cs" />
     <Compile Include="Assets\system\VRM\UniVRM\Editor\VRMMonoBehaviourComparator.cs" />
+    <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
     <None Include="Assets\system\FbxExporters\Editor\FbxSdk\LICENSE.txt" />
     <None Include="Assets\system\FbxExporters\Editor\FbxSdk\README.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">

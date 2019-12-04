@@ -191,7 +191,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &665423899
 GameObject:
@@ -223,7 +223,7 @@ Transform:
   - {fileID: 170171481}
   - {fileID: 1458322689}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &809682580
 PrefabInstance:
@@ -355,7 +355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d06a7ef84b2b0e45a9f668f6dfe09cb, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d06a7ef84b2b0e45a9f668f6dfe09cb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -371,6 +371,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d06a7ef84b2b0e45a9f668f6dfe09cb, type: 3}
+--- !u!1 &884002800 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 4d06a7ef84b2b0e45a9f668f6dfe09cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 884002799}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &884002801 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 4d06a7ef84b2b0e45a9f668f6dfe09cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 884002799}
+  m_PrefabAsset: {fileID: 0}
+--- !u!320 &884002802
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884002800}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: dfa14dd03d6da44478e0f377c6839b28, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 114280368394857052, guid: dfa14dd03d6da44478e0f377c6839b28, type: 2}
+    value: {fileID: 884002801}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &1458322688
 GameObject:
   m_ObjectHideFlags: 0
@@ -843,5 +876,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 45, y: 130, z: 90}

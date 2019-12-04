@@ -60,7 +60,114 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\BloomModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\FogModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\GrainModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\PostProcessingFactory.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\PostProcessingInspector.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\PostProcessingModelEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\PostProcessingMonitor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Utils\CurveEditor.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Utils\EditorResources.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Utils\FxStyles.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\VRM\DepthFirstScheduler\Editor\Tests\DepthFirstScheduler.cs" />
+    <Compile Include="Assets\VRM\MToon\MToon\Editor\EditorUtils.cs" />
+    <Compile Include="Assets\VRM\MToon\MToon\Editor\MToonInspector.cs" />
+    <Compile Include="Assets\VRM\ShaderProperty\Editor\ShaderPropMenu.cs" />
+    <Compile Include="Assets\VRM\UniGLTF\Editor\gltfAssetPostprocessor.cs" />
+    <Compile Include="Assets\VRM\UniGLTF\Editor\ImporterMenu.cs" />
+    <Compile Include="Assets\VRM\UniGLTF\Editor\Tests\JsonDeserializeTests.cs" />
+    <Compile Include="Assets\VRM\UniGLTF\Editor\Tests\MaterialTests.cs" />
+    <Compile Include="Assets\VRM\UniGLTF\Editor\Tests\TextureTests.cs" />
+    <Compile Include="Assets\VRM\UniGLTF\Editor\Tests\UniGLTFTests.cs" />
+    <Compile Include="Assets\VRM\UniGLTF\Editor\UniGLTFVersionMenu.cs" />
+    <Compile Include="Assets\VRM\UniHumanoid\Editor\BoneMappingEditor.cs" />
+    <Compile Include="Assets\VRM\UniHumanoid\Editor\bvhAssetPostprocessor.cs" />
+    <Compile Include="Assets\VRM\UniHumanoid\Editor\HumanPoseTransferEditor.cs" />
+    <Compile Include="Assets\VRM\UniHumanoid\Editor\MuscleInspectorEditor.cs" />
+    <Compile Include="Assets\VRM\UniHumanoid\Editor\Tests\BvhLoaderTests.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\GenericCallUtilityTests.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\IWriteStreamTest.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\Json\JsonDiffTests.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\Json\JsonFormatterTest.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\Json\JsonParserTest.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\Json\JsonSerializerTests.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\Json\JsonValueTests.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\Json\SchemaTests.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\Json\SerializeWithSchemaTests.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\Json\ValidatorTests.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\MsgPack\ArrayTest.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\MsgPack\BooleanTest.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\MsgPack\FloatTest.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\MsgPack\IntTest.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\MsgPack\MapTest.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\MsgPack\RawTest.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\MsgPack\StringTest.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\MsgPack\TimeTests.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\RPCTests.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\Toml\TomlParserTests.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\TreeTest.cs" />
+    <Compile Include="Assets\VRM\UniJSON\Editor\Tests\Utf8StringTest.cs" />
+    <Compile Include="Assets\VRM\UniUnlit\Editor\UniUnlitEditor.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\BlendShape\BlendShapeAvatarEditor.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\BlendShape\BlendShapeClipDrawer.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\BlendShape\BlendShapeClipEditor.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\BlendShape\BlendShapeClipEditorHelper.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\BlendShape\BlendShapeClipSelector.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\BlendShape\PreviewEditor.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\BlendShape\PreviewFaceRenderer.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\BlendShape\SerializedBlendShapeClipEditor.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\BlendShape\VRMBlnedShapeProxyEditor.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\FirstPerson\RendererFirstPersonFlagsDrawer.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\FirstPerson\VRMFirstPersonEditor.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\Format\VRMAOTMenu.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\Format\vrmAssetPostprocessor.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\Format\VRMAssetWriter.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\Format\VRMExporterMenu.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\Format\VRMExportObjectEditor.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\Format\VRMHumanoidNormalizerMenu.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\Format\VRMImporterMenu.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\Format\VRMVersionMenu.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\LookAt\VRMLookAtHeadEditor.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\Meta\VRMMetaEditor.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\SkinnedMeshUtility\BoneMeshEraserWizard.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\SkinnedMeshUtility\MeshIntegrator.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\SkinnedMeshUtility\MeshIntegratorWizard.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\SkinnedMeshUtility\SkinnedMeshUtility.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\SpringBone\VRMSpringBoneColliderGroupEditor.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\Tests\EnumUtilTest.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\Tests\MeshTests.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\Tests\UniVRMSerializeTests.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\Tests\VersionTests.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\Tests\VRMBlendShapeKeyTest.cs" />
+    <Compile Include="Assets\VRM\UniVRM\Editor\VRMMonoBehaviourComparator.cs" />
+    <None Include="Assets\FbxExporters\Editor\FbxSdk\LICENSE.txt" />
+    <None Include="Assets\FbxExporters\Editor\FbxSdk\README.txt" />
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>D:/git_project_AI/Material_Test/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
@@ -363,6 +470,15 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>D:/git_project_AI/Material_Test/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityFbxSdk">
+      <HintPath>D:/git_project_AI/Material_Test/Assets/FbxExporters/Editor/FbxSdk/Plugins/UnityFbxSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityFbxExporterEditor">
+      <HintPath>D:/git_project_AI/Material_Test/Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityFbxPrefab">
+      <HintPath>D:/git_project_AI/Material_Test/Assets/FbxExporters/UnityFbxPrefab.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.10f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -729,6 +845,18 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{B08E5DA8-9849-4C26-C7E8-443E01F9395C}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Editor.csproj">
+      <Project>{DD6A601C-E556-3569-472E-48EA332B644B}</Project>
+      <Name>Unity.Recorder.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.csproj">
+      <Project>{0AA2D547-403E-3397-7EB5-0126C766B81F}</Project>
+      <Name>Unity.Recorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Samples.csproj">
+      <Project>{75341794-AFEC-CAA9-44B5-FFC9365D0D61}</Project>
+      <Name>Unity.Recorder.Samples</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

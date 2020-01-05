@@ -1,0 +1,1734 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE sesx>
+<sesx version="1.8">
+
+  <session appBuild="13.0.1.35" appVersion="13.0" audioChannelType="stereo" bitDepth="24" duration="12055838" sampleRate="48000">
+    <tracks>
+      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="false" visible="true">
+        <trackParameters trackHeight="64" trackHue="160" trackMinimized="false">
+          <name>トラック 1</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="2"/>
+          <component componentGuid="a5e09783-1be3-46db-b9cb-b72f70ad7133" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="178c803d-f585-44ff-89b7-357b299940fc" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="3aa531b8-957b-411e-9f6c-20a64648f596" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="c98cfbe5-074d-4da6-b918-c87d1d898828" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="6688297" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="トラック 1_001" offline="false" select="false" sourceInPoint="0" sourceOutPoint="1025169" startPoint="5663128" zOrder="0">
+          <component componentGuid="0d98dc97-eba4-4b0d-8d77-e256248d1e69" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="a3db00a8-94f1-4028-99b2-2f312c26e3a9" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="5dd2b402-8523-4d96-9ab3-91872cd65856" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="1025169" shape="0" startPoint="1025169" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="6927097" fileID="1" hue="-1" id="1" lockedInTime="false" looped="false" name="トラック 1_002" offline="false" select="false" sourceInPoint="0" sourceOutPoint="229683" startPoint="6697414" zOrder="1">
+          <component componentGuid="b64f10c1-ccb2-4982-a889-75eae09f4c66" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="ea1f1826-8a55-47b2-affa-d024d5a8c5fb" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="d88ce992-778b-43c2-85d8-efe26f816edf" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="229683" shape="0" startPoint="229683" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="7195166" fileID="2" hue="-1" id="2" lockedInTime="false" looped="false" name="トラック 1_023" offline="false" select="false" sourceInPoint="0" sourceOutPoint="225183" startPoint="6969983" zOrder="4">
+          <component componentGuid="ce1b6d4c-6fe8-4df3-9d4b-1a13d1c427dc" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="d4c1bcfb-1ad7-4e00-b6c9-2aa410bb97eb" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="3d93d2d1-0473-4219-9746-9a51331f806d" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="225183" shape="0" startPoint="225183" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="7453593" fileID="1" hue="-1" id="3" lockedInTime="false" looped="false" name="トラック 1_002" offline="false" select="false" sourceInPoint="229683" sourceOutPoint="474662" startPoint="7208614" zOrder="5">
+          <component componentGuid="09c9235b-e9cc-4077-893a-f45690b6b6fc" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="14e1092b-f1cc-4bb5-98e2-d2a4fde7c2d8" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="266e4faa-0be3-4855-bf63-31cd20956d13" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="244979" shape="0" startPoint="244979" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="7675889" fileID="1" hue="-1" id="4" lockedInTime="false" looped="false" name="トラック 1_002" offline="false" select="false" sourceInPoint="474662" sourceOutPoint="696958" startPoint="7453593" zOrder="6">
+          <component componentGuid="3de2bed8-1f86-42d2-8319-7f1094fc94bb" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="e0ff2b63-4110-42bd-8b23-4d52439f7dc9" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="00046ff1-a7c6-4685-9ac5-6bdbabc0d5db" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="222296" shape="0" startPoint="222296" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="8956387" fileID="2" hue="-1" id="5" lockedInTime="false" looped="false" name="トラック 1_023" offline="false" select="false" sourceInPoint="225183" sourceOutPoint="1165312" startPoint="8016258" zOrder="2">
+          <component componentGuid="2b9c7a43-85c3-4312-b21c-c63f3504c9d8" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="8c736cd6-1ecf-40e8-aa07-e0b288aad2e6" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="5bf86956-01d1-4c3a-8ed2-01dba940bc0a" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="940129" shape="0" startPoint="940129" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="10006469" fileID="3" hue="-1" id="6" lockedInTime="false" looped="false" name="トラック 1_024" offline="false" select="false" sourceInPoint="0" sourceOutPoint="939418" startPoint="9067051" zOrder="3">
+          <component componentGuid="9216af1b-2e1e-42f9-a6cf-56eda09f9744" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="78e28726-051e-4436-8997-0cb4ffdcf04f" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="028fcc98-b4f7-480d-9d6c-63159a4edf0b" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="939418" shape="0" startPoint="939418" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
+        <trackParameters trackHeight="64" trackHue="267" trackMinimized="false">
+          <name>トラック 2</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="2"/>
+          <component componentGuid="ef914467-cdcf-48cb-a236-806f0af40750" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="a2833a16-7237-4250-b4fa-2b9e876f28d7" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="3f3b1619-2135-4b84-98cf-3642f9beed70" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="37cdf6ae-7791-49f9-a575-909a185f76eb" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="6771296" fileID="4" hue="-1" id="0" lockedInTime="false" looped="false" name="トラック 2_003" offline="false" select="false" sourceInPoint="0" sourceOutPoint="1108168" startPoint="5663128" zOrder="0">
+          <component componentGuid="fa688506-e830-48da-98d4-edddc1dceee5" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="a72e0d5e-2c8d-4cd0-be0a-2359d80cbcbc" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="ba9db9e3-e484-43f8-8fa0-db65439061ed" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="1108168" shape="0" startPoint="1108168" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="7675889" fileID="5" hue="-1" id="1" lockedInTime="false" looped="false" name="トラック 2_009" offline="false" select="false" sourceInPoint="0" sourceOutPoint="753987" startPoint="6921902" zOrder="4">
+          <component componentGuid="6689b5c9-bb02-4a50-883c-914a8ecee676" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="29c901f8-dbdd-440f-8a09-054775a745b8" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="b72c7b56-35c2-4a1c-871d-582531d825b2" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="753987" shape="0" startPoint="753987" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="8914989" fileID="6" hue="-1" id="2" lockedInTime="false" looped="false" name="トラック 2_025" offline="false" select="false" sourceInPoint="0" sourceOutPoint="918528" startPoint="7996461" zOrder="1">
+          <component componentGuid="adfa9685-285a-42b1-9a4f-6d55f60a717b" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="75d6f22e-316d-47bf-b1c9-d26742a27b6a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="782d980b-1f98-4f91-88dd-8dec84614e9f" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="918528" shape="0" startPoint="918528" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="9739088" fileID="7" hue="-1" id="3" lockedInTime="false" looped="false" name="トラック 2_026" offline="false" select="false" sourceInPoint="0" sourceOutPoint="763213" startPoint="8975875" zOrder="2">
+          <component componentGuid="6fb33a9f-f8dc-48c1-90f7-0191842b7302" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="856a118d-c081-48a7-b9eb-303f4e5720a3" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="a6c91203-a1ec-4eee-9a94-5857ef22f267" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="763213" shape="0" startPoint="763213" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="11120219" fileID="8" hue="-1" id="4" lockedInTime="false" looped="false" name="トラック 2_027" offline="false" select="false" sourceInPoint="0" sourceOutPoint="1065984" startPoint="10054235" zOrder="3">
+          <component componentGuid="b696ee92-18af-4b98-8304-5ec35eb1b3d6" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="303c0c00-5075-4a57-be8d-9adfb1a9fda8" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="24819ae8-ff56-440c-9992-9116d62ff33d" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="1065984" shape="0" startPoint="1065984" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10003" index="3" select="false" visible="true">
+        <trackParameters trackHeight="64" trackHue="51" trackMinimized="false">
+          <name>トラック 3</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="74320560-433b-4101-849f-9739358ec9f6" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="ca38bf77-50c5-41fe-b99a-b929ae15a8cf" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="cd90f143-9e12-4191-bbf9-e65aa95dd89a" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="dfb45e3b-839a-49d9-83ca-9888d1d3f704" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="6634707" fileID="9" hue="-1" id="0" lockedInTime="false" looped="false" name="トラック 3_010" offline="false" select="false" sourceInPoint="0" sourceOutPoint="914432" startPoint="5720275" zOrder="0">
+          <component componentGuid="19daf163-144c-4b49-859e-6ad70e1d60ed" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="8ec5c247-604c-4b12-8f23-52877f46ba1b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="f27e07c5-3a34-4b2e-9bf5-b3cfaa21e6ca" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="914432" shape="0" startPoint="914432" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="7152949" fileID="10" hue="-1" id="1" lockedInTime="false" looped="false" name="トラック 3_021" offline="false" select="false" sourceInPoint="0" sourceOutPoint="182966" startPoint="6969983" zOrder="1">
+          <component componentGuid="5f541b95-a7c1-464a-a754-f1c8b73ea2a7" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="5b399add-f84b-47ba-80ce-1a49e0b844ef" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="875645e5-6666-406c-bd8c-231ef505266d" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="182966" shape="0" startPoint="182966" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="7580818" fileID="11" hue="-1" id="2" lockedInTime="false" looped="false" name="トラック 3_022" offline="false" select="false" sourceInPoint="0" sourceOutPoint="267763" startPoint="7313055" zOrder="2">
+          <component componentGuid="b8676b70-c85c-46ef-adb2-7e40ca59f96e" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="51ca24ba-4777-4a38-bd8f-7b7b0f19f6f8" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="cc4423e9-f38a-4ac1-bec7-26f227b799e7" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="267763" shape="0" startPoint="267763" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10004" index="4" select="false" visible="true">
+        <trackParameters trackHeight="64" trackHue="182" trackMinimized="false">
+          <name>トラック 4</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="3f998ab3-ee3b-4316-99a0-1f9f1b4dac40" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="8b3d2cbe-7745-48df-90b8-58b3754ec0fd" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="592158c4-94c7-4a83-84e8-0d038e053a33" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="1871216e-72aa-4cfd-aa6e-f93c0e6c5c5a" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="6016028" fileID="12" hue="-1" id="0" lockedInTime="false" looped="false" name="トラック 4_011" offline="false" select="false" sourceInPoint="0" sourceOutPoint="352900" startPoint="5663128" zOrder="0">
+          <component componentGuid="ee184f9b-e492-4513-8f18-05073e7d9aec" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="fb84f576-da01-4115-b98d-8ad846d929a0" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="134af1bf-43de-4578-b28a-a092f1530e43" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="352900" shape="0" startPoint="352900" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="6348549" fileID="12" hue="-1" id="1" lockedInTime="false" looped="false" name="トラック 4_011" offline="false" select="false" sourceInPoint="352900" sourceOutPoint="685421" startPoint="6016028" zOrder="1">
+          <component componentGuid="aa256253-2987-44ea-8044-6bc63ef311f3" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="a3ee1d78-a8eb-461c-8bff-7c6990d8ae94" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="ed8629d2-395e-4d9e-bb52-cae6d47dab10" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="332521" shape="0" startPoint="332521" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="6659317" fileID="12" hue="-1" id="2" lockedInTime="false" looped="false" name="トラック 4_011" offline="false" select="false" sourceInPoint="685421" sourceOutPoint="996189" startPoint="6348549" zOrder="2">
+          <component componentGuid="4559fd58-41ea-449c-bf89-4acea1446124" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="a3af0389-4703-4583-a6f1-344d6b9f4cca" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="958dea2c-d530-4e5a-aa48-6eae0ecf66da" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="310768" shape="0" startPoint="310768" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="6954547" fileID="12" hue="-1" id="3" lockedInTime="false" looped="false" name="トラック 4_011" offline="false" select="false" sourceInPoint="996189" sourceOutPoint="1291419" startPoint="6659317" zOrder="3">
+          <component componentGuid="a57af9f4-d722-40d2-bd32-4b298d83c8a3" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="95402b89-f6fa-4ffb-842a-dd77475af9ae" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="06cc5372-11c8-4532-bc7a-e7ad3db1fdfe" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="295230" shape="0" startPoint="295230" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="7288946" fileID="12" hue="-1" id="4" lockedInTime="false" looped="false" name="トラック 4_011" offline="false" select="false" sourceInPoint="1291419" sourceOutPoint="1625818" startPoint="6954547" zOrder="4">
+          <component componentGuid="a3333606-4e37-4abe-a462-9dbfd9999bce" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="c5a1108e-bca6-4e1d-ae7f-97e8b8f9bc7b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="22e0c096-3c5f-4bbb-b39e-93f7486c2dc2" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="334399" shape="0" startPoint="334399" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="7583128" fileID="13" hue="-1" id="5" lockedInTime="false" looped="false" name="トラック 4_012" offline="false" select="false" sourceInPoint="0" sourceOutPoint="154126" startPoint="7429002" zOrder="5">
+          <component componentGuid="25ad7007-4ea0-46b6-9320-cb82fbc0d933" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="87c2542f-4a57-4886-9f96-55869f3eb68a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="e3f1cb4a-604b-453a-a75b-40c30c0a8893" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="154126" shape="0" startPoint="154126" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10005" index="5" select="false" visible="true">
+        <trackParameters trackHeight="64" trackHue="294" trackMinimized="false">
+          <name>トラック 5</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="true" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="2"/>
+          <component componentGuid="b5e1a794-5e99-4db9-80b4-cb568a043d27" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="fd77b1aa-73dd-4612-a6ac-2b50754dae3b" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="a7849695-f096-4100-b7cf-2b1e29a8c5d9" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="1593bc8f-023a-48c4-aec9-324f4095e361" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="7549229" fileID="14" hue="-1" id="0" lockedInTime="false" looped="false" name="トラック 5_014" offline="false" select="false" sourceInPoint="0" sourceOutPoint="1886101" startPoint="5663128" zOrder="0">
+          <component componentGuid="802c8ebe-5139-4314-80bd-e5d7fd3d876d" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="0a8e6bd8-501d-44ec-9d98-54e0dd23f171" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="47a3deb8-3ee7-46be-94ff-e76501bf21e5" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="1886101" shape="0" startPoint="1886101" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="8684737" fileID="15" hue="-1" id="1" lockedInTime="false" looped="false" name="トラック 5_016" offline="false" select="false" sourceInPoint="866098" sourceOutPoint="1055927" startPoint="8494908" zOrder="1">
+          <component componentGuid="6a277823-b6e1-4bec-80dc-55ec7244f3db" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="8adaf897-3d95-49d0-abd0-19515b1058df" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="54f2a60a-db88-4591-bc2d-dab2dd8b765e" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="189829" shape="0" startPoint="189829" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="9386551" fileID="16" hue="-1" id="2" lockedInTime="false" looped="false" name="トラック 5_017" offline="false" select="false" sourceInPoint="0" sourceOutPoint="664224" startPoint="8722327" zOrder="2">
+          <component componentGuid="c3748d84-adaf-493c-8737-d50b50ac0f57" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="d1b64671-91d8-4053-9c9d-14f04869c472" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="9f8fc684-68e9-4ebb-8a6b-3e70f0f0df55" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="664224" shape="0" startPoint="664224" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="9814290" fileID="16" hue="-1" id="3" lockedInTime="false" looped="false" name="トラック 5_017" offline="false" select="false" sourceInPoint="664224" sourceOutPoint="1091963" startPoint="9386551" zOrder="7">
+          <component componentGuid="7c625be1-4004-4a18-b5f6-13ad609abbf6" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="73ed995d-2066-4523-bfca-0ee8fa0074aa" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="9cf82c4b-5ebd-4dc8-8eef-b104be2530b7" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="427739" shape="0" startPoint="427739" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10006" index="6" select="true" visible="true">
+        <trackParameters trackHeight="64" trackHue="92" trackMinimized="false">
+          <name>トラック 6</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="2"/>
+          <component componentGuid="9579f465-267f-4a14-b160-f911f6a319d9" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="0b09922e-2c2f-47b5-9f9e-4fcfc2c95a52" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="434ee24c-ebce-49c5-94fc-cb8db4b76a1e" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="24d84129-e4cc-4976-bd77-a0c47f4ba01c" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="7526824" fileID="18" hue="-1" id="0" lockedInTime="false" looped="false" name="トラック 6_019" offline="false" select="false" sourceInPoint="0" sourceOutPoint="731766" startPoint="6795058" zOrder="0">
+          <component componentGuid="7a656054-2247-4457-9b50-e983aac5dbf9" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="4711c087-e46b-4b14-9f02-ed42373012a5" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="b9ff5179-65fe-41f9-8d2f-58e1d29787b8" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="731766" shape="0" startPoint="731766" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="8253699" fileID="19" hue="-1" id="1" lockedInTime="false" looped="false" name="トラック 6_020" offline="false" select="false" sourceInPoint="0" sourceOutPoint="681723" startPoint="7571976" zOrder="1">
+          <component componentGuid="fff0ebca-bbfc-4181-8704-d943d292443e" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="58712068-2285-4d3e-bb00-c9a83b45946e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="b7dcc8c2-2c83-4702-9439-38dd7454eca3" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="681723" shape="0" startPoint="681723" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10007" index="7" select="false" visible="true">
+        <trackParameters trackHeight="64" trackHue="211" trackMinimized="false">
+          <name>トラック 7</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="true" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="0308c417-9b79-4212-a8c7-0d35ae897357" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="0b06b4d4-8f8e-4f29-ac95-d1ac03e64908" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="46a2b9f6-2054-4485-a7ee-82174f04a8b1" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="58098527-2454-427d-bb41-5756628b5af7" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="225183" fileID="2" hue="-1" id="0" lockedInTime="false" looped="false" name="トラック 1_023" offline="false" select="false" sourceInPoint="0" sourceOutPoint="225183" startPoint="0" zOrder="0">
+          <component componentGuid="098baa3b-706e-45b7-9443-4272ec1ef417" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="e9e3b752-4a8f-4dc7-9023-d7e5c23d112d" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="9566fd84-b5f8-42e9-bdda-726a3f29b536" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="225183" shape="0" startPoint="225183" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="483610" fileID="1" hue="-1" id="1" lockedInTime="false" looped="false" name="トラック 1_002" offline="false" select="false" sourceInPoint="229683" sourceOutPoint="474662" startPoint="238631" zOrder="1">
+          <component componentGuid="73fc17c8-84ca-4484-9ad1-24861252d290" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="e146e4fe-4297-47a5-a32c-e61c8682226a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="3247526a-1d12-4a28-b3b6-b24d40b1bd37" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="244979" shape="0" startPoint="244979" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="705906" fileID="1" hue="-1" id="2" lockedInTime="false" looped="false" name="トラック 1_002" offline="false" select="false" sourceInPoint="474662" sourceOutPoint="696958" startPoint="483610" zOrder="2">
+          <component componentGuid="53420fd0-55ca-459f-9186-538a171329cc" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="3729b655-49f5-4091-917a-20a7b3272f74" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="32feed7f-8e16-4081-a438-ab3a132a9f16" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="222296" shape="0" startPoint="222296" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1544514" fileID="5" hue="-1" id="3" lockedInTime="false" looped="false" name="トラック 2_009" offline="false" select="false" sourceInPoint="0" sourceOutPoint="753987" startPoint="790527" zOrder="3">
+          <component componentGuid="54e404c8-5cc0-4591-bb51-fc6d9ccf227a" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="92cc371b-52a4-4932-bef4-7a37a16ae508" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="669957c5-37ab-40b9-b2a9-f8972dd9fbfd" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="753987" shape="0" startPoint="753987" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10008" index="8" select="false" visible="true">
+        <trackParameters trackHeight="64" trackHue="326" trackMinimized="false">
+          <name>トラック 8</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="true" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="59fb2c08-d3b1-4575-8cd9-9df2954e2dbe" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="ba5bd3c8-7e06-4142-b0ba-6618f56bde5c" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="e8c7fee9-2027-448c-9f2c-b81d314ef27e" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="bc8603dd-e0ad-4979-ac05-18573a1f9a12" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="2508545" fileID="9" hue="-1" id="0" lockedInTime="false" looped="false" name="トラック 3_010" offline="false" select="false" sourceInPoint="0" sourceOutPoint="914432" startPoint="1594113" zOrder="0">
+          <component componentGuid="1dfbe16a-1b23-4cac-a260-f5b38cfb054c" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="42bd6349-6ffc-4947-b7fb-d3056bf639fc" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="02c303e9-8230-4132-96ad-56fad6d2e383" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="914432" shape="0" startPoint="914432" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10009" index="9" select="false" visible="true">
+        <trackParameters trackHeight="64" trackHue="130" trackMinimized="false">
+          <name>トラック 9</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="42cab4f6-78d5-4aea-afab-98e51d08f27a" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="0031151a-2afe-4302-9d18-6ccb61b464b6" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="7872448c-624b-4f76-b3b6-ff5007c20c35" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="64e85738-6377-413d-b0d5-be17c9c69f13" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="2688000" fileID="12" hue="-1" id="0" lockedInTime="false" looped="false" name="トラック 4_011" offline="false" select="false" sourceInPoint="1291419" sourceOutPoint="1625818" startPoint="2353601" zOrder="0">
+          <component componentGuid="683ca526-51db-415b-bac3-e47e9f5dd1e4" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="d2bad28c-92f9-401a-ae21-1829d1be6d61" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="c6531882-1867-45bd-b23a-19d26940e5ef" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="334399" shape="0" startPoint="334399" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="3219699" fileID="17" hue="-1" id="1" lockedInTime="false" looped="false" name="トラック 6_018" offline="false" select="false" sourceInPoint="57147" sourceOutPoint="535982" startPoint="2740864" zOrder="1">
+          <component componentGuid="43351b26-553c-4c72-bc93-1148b8d0553f" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="11b126cf-084f-4604-a499-1fe2107b5bc5" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="a47531ad-bbf0-4526-8690-92dc11a8448d" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="478835" shape="0" startPoint="478835" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10010" index="10" select="false" visible="true">
+        <trackParameters trackHeight="64" trackHue="240" trackMinimized="false">
+          <name>トラック 10</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="true" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="c5c99ace-0886-4fe8-98fb-062f609c4582" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="ec9f7cc4-b3ed-418f-a1a2-9b65caa4acd6" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="c91afc01-2b58-4ce0-ae52-66b5a7db8540" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="b30082e7-ab67-4654-8580-9a00bc132cb0" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="3219699" fileID="15" hue="-1" id="0" lockedInTime="false" looped="false" name="トラック 5_016" offline="false" select="false" sourceInPoint="0" sourceOutPoint="866098" startPoint="2353601" zOrder="0">
+          <component componentGuid="1cc5b112-7dd2-473b-ab40-43ce9bdafea2" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="bf89d406-0282-4889-bdf9-693c5004e567" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="1f29cfe0-068a-4479-ab56-4bf3ee3ddb6b" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="866098" shape="0" startPoint="866098" type="cosine"/>
+          <take sourceInPoint="0"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="3673054" fileID="16" hue="-1" id="1" lockedInTime="false" looped="false" name="トラック 5_017" offline="false" select="false" sourceInPoint="664224" sourceOutPoint="1091963" startPoint="3245315" zOrder="7">
+          <component componentGuid="0c4a6c2c-5658-4b10-b6be-1c57dba305c9" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="bca52ad9-b1e6-4256-a3b5-99f2b93aa6f4" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="7ab21aca-b4c7-4216-9004-0f80da462c56" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="427739" shape="0" startPoint="427739" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <masterTrack automationLaneOpenState="false" id="10000" index="11" select="false" visible="true">
+        <trackParameters trackHeight="64" trackHue="-1" trackMinimized="false">
+          <name>マスター</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="true" soloSafe="true">
+          <trackOutput outputID="1" type="hardwareOutput"/>
+          <trackInput inputID="-1"/>
+          <component componentGuid="9a7a2775-06f6-4ac4-a2a1-025319d869bb" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="aeb7e460-f2ec-470d-b509-8f08ca43b480" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="95791f8e-93aa-455f-83f1-193098aca353" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="01882b84-9e66-4111-8d43-0ecd6b8d0fde" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </masterTrack>
+    </tracks>
+    <sessionState ctiPosition="4094761" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="4094761"/>
+      <viewState horizontalViewDuration="4886189" horizontalViewStart="3969480" trackControlsWidth="224" verticalScrollOffset="0"/>
+      <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatBarsAndBeats"/>
+      <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3" playOverlappingClips="false"/>
+    </sessionState>
+    <xmpMetadata><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c148 79.164036, 2019/08/13-01:06:57        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
+         <xmp:CreatorTool>Adobe Audition 13.0 (Windows)</xmp:CreatorTool>
+         <xmp:CreateDate>2019-12-30T16:55:37+09:00</xmp:CreateDate>
+         <xmp:MetadataDate>2020-01-05T15:29:38+09:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2020-01-05T15:29:38+09:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:1414cc77-9af8-9c4a-b5df-a2ef73c49ff8</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:1414cc77-9af8-9c4a-b5df-a2ef73c49ff8</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>xmp.did:017cf8cf-d5f1-2742-a4d9-382e4f6def59</xmpMM:OriginalDocumentID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:017cf8cf-d5f1-2742-a4d9-382e4f6def59</stEvt:instanceID>
+                  <stEvt:when>2019-12-30T16:55:37+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 13.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:9a3089bd-c5c6-1e45-b57e-ccebbb9041c5</stEvt:instanceID>
+                  <stEvt:when>2019-12-30T18:10:50+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 13.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:928e5ae8-8457-0f43-817f-cd215b647109</stEvt:instanceID>
+                  <stEvt:when>2019-12-30T18:10:50+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 13.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f58a1b6c-2805-f241-9a02-ba9e4b03316b</stEvt:instanceID>
+                  <stEvt:when>2019-12-30T18:11:18+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 13.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ce6182d3-ed48-0d4f-a4fe-65e3450784f0</stEvt:instanceID>
+                  <stEvt:when>2019-12-30T18:11:18+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 13.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:e7ef1978-989e-0847-a6db-57dca1ebb6cf</stEvt:instanceID>
+                  <stEvt:when>2020-01-05T15:29:38+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 13.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:1414cc77-9af8-9c4a-b5df-a2ef73c49ff8</stEvt:instanceID>
+                  <stEvt:when>2020-01-05T15:29:38+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 13.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>xmp.iid:e7ef1978-989e-0847-a6db-57dca1ebb6cf</stRef:instanceID>
+            <stRef:documentID>xmp.did:ce6182d3-ed48-0d4f-a4fe-65e3450784f0</stRef:documentID>
+            <stRef:originalDocumentID>xmp.did:017cf8cf-d5f1-2742-a4d9-382e4f6def59</stRef:originalDocumentID>
+         </xmpMM:DerivedFrom>
+         <dc:format>application/xml</dc:format>
+         <xmpDM:Tracks>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CuePoint Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Cue</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CD Track Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Track</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>Subclip Markers</xmpDM:trackName>
+                  <xmpDM:trackType>InOut</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpDM:Tracks>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>]]></xmpMetadata>
+    <clipGroups/>
+    <metronome enabled="false" pattern="downBeat subdivision subdivision subdivision " soundSet="sticks">
+      <metronomeTrack automationLaneOpenState="false" id="40000" index="0" select="false" visible="false">
+        <trackParameters trackHeight="77" trackHue="-1" trackMinimized="false">
+          <name>メトロノーム</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="mono" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="-1"/>
+          <component componentGuid="cf751d05-485c-4366-a408-f9b4e37253c0" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.50118720531463623046875"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="4bd9560c-a9ff-4bdc-894c-36438390a68e" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="6a3af77b-7d50-43d8-8b70-0f4a9d3125bd" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="9149b564-ff82-4b56-a3cc-f79b773b2b71" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </metronomeTrack>
+    </metronome>
+    <properties>
+      <property key="EssentialSoundConfigurations">[{"Guid":"a8b40e3e-13e7-4c1f-b382-96058f1f691d","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"ambience","Models":{"model_ducking":{},"model_loudness":{"DefaultLoudness":{"type":"float","value":-30},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/LargeRoomAmbience=Large Room Ambience":{"type":"array::float","value":[0.051507499068975449,0.32432401180267334,0.29292899370193481,0.30000001192092896,0.20000000298023224,0,0.14285700023174286,0.40000000596046448,0.5,0.69999998807907104,0.30000001192092896,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideAmbience=Outside Ambience":{"type":"array::float","value":[0.091708503663539886,0.043893899768590927,1,0.5,0.20000000298023224,0.80000001192092896,0.18367299437522888,1,0.5,0,0.80000001192092896,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/RoomAmbience=Room Ambience":{"type":"array::float","value":[0.057788901031017303,0.44944900274276733,0.49494898319244385,0.89999997615814209,0.10000000149011612,0.15000000596046448,0.081632703542709351,0.40000000596046448,0.5,0.80000001192092896,0.20000000298023224,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WindEffect=Wind Effect":{"type":"array::float","value":[0.19597999751567841,0.6896899938583374,0.69696998596191406,0.25,0.5,0.5,0.23469400405883789,0.51999998092651367,0.5,0.75,0.25,0.25125628709793091,0.03125]}}}},"model_stereowidth":{},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"58dc27a8-6a2a-480c-bd0c-4b45fff346a6","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"dialog","Models":{"model_clarity":{"EQPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/EQPreset/BackgroundVoice=Background Voice":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.5,0.5,0.5,0.5,0.5,0.47827938199043274,0.45772689580917358,0.45778733491897583,0.47946760058403015,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/Intercom=Intercom":{"type":"array::float","value":[0.19432899355888367,0.5,1,0,0.071499988436698914,0.071499988436698914,0.071499988436698914,0.40238627791404724,0.48571401834487915,0.5,0.55155748128890991,0.59602576494216919,0.22246670722961426,0.071499988436698914,0]},"$$$/app/Presets/EssentialSound/EQPreset/LockedInTheTrunk=Locked in the Trunk":{"type":"array::float","value":[0.12099699676036835,0.5,0.79746836423873901,0,0.5,0.5,0.5,0.5,0.5,0.32846158742904663,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/OldRadio=Old Radio":{"type":"array::float","value":[0.12099699676036835,0.5,0.79746836423873901,0,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.28442040085792542,0.48315632343292236,0.36498492956161499,0.52853888273239136,0.43511500954627991,0.27154684066772461,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/OnTheTelephone=On the Telephone":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.32864287495613098,0.32864287495613098,0.32864287495613098,0.32864287495613098,0.48571401834487915,0.53071397542953491,0.53071397542953491,0.48357096314430237,0.32864287495613098,0.32864287495613098,0]},"$$$/app/Presets/EssentialSound/EQPreset/OutsideOfTheRoom=Outside of the Room":{"type":"array::float","value":[0.12099699676036835,0.5,0.79746836423873901,0,0.42539370059967041,0.47865453362464905,0.5,0.5,0.48571401834487915,0.40073278546333313,0.25656309723854065,0.15721426904201508,0.15721426904201508,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/PodcastVoice=Podcast Voice":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.5,0.5,0.5,0.51789408922195435,0.50770342350006104,0.5,0.51789408922195435,0.528114914894104,0.5102812647819519,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/SubtleBoostFemale=Subtle Boost (Female)":{"type":"array::float","value":[0.096553400158882141,0.5,0.29113924503326416,0,0.5,0.5,0.5,0.5,0.5,0.51933407783508301,0.54642897844314575,0.52706766128540039,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/SubtleBoostMale=Subtle Boost (Male)":{"type":"array::float","value":[0.096553400158882141,0.5,0.29113924503326416,0,0.5,0.5,0.5,0.5,0.5,0.5135338306427002,0.54642897844314575,0.51933407783508301,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/ThatPublicRadioSound=That Public Radio Sound":{"type":"array::float","value":[0.12099699676036835,0.5,0.79746836423873901,0,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.36334344744682312,0.49468311667442322,0.5,0.5,0.5,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/VocalPresence=Vocal Presence":{"type":"array::float","value":[0.096553400158882141,0.5,0.32489451766014099,0,0.3572143018245697,0.3572143018245697,0.46428570151329041,0.47857141494750977,0.4763694703578949,0.49570354819297791,0.55924957990646362,0.56523394584655762,0.50859290361404419,0.46992480754852295,0]}}}},"model_loudness":{"DefaultLoudness":{"type":"float","value":-23},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_restoration":{"ReduceNoiseMaxSetting":{"type":"array::float","value":[1,0,0,0,0]},"ReduceNoiseMinSetting":{"type":"array::float","value":[0,0,0,0,0]},"ReduceReverbMaxSetting":{"type":"array::float","value":[1,0,1,0,0]},"ReduceReverbMinSetting":{"type":"array::float","value":[0,0,1,0,0]},"ReduceRumbleMaxSetting":{"type":"array::float","value":[1,0.061583578586578369,0.375,0,0,0.00083333335351198912,1,0,1,0.0390625,0.00083408987848088145,0,0.0041666668839752674,0.00022554649331141263,0.0046875001862645149,0.75,0.0052083334885537624,0.75,1,0.75,0.0040520834736526012,0.75,0.0042629167437553406,0.00022554649331141263,0.0064883334562182426,0.00022554649331141263,0.006866666954010725,0.75,0.0071704164147377014,0.00022554649331141263,0.01041458360850811,0.00022554649331141263,0.010900000110268593,0.75,0.011407917365431786,0.00022554649331141263,0.015606249682605267,0.00022554649331141263,0.016333334147930145,0.75,0.017094582319259644,0.00022554649331141263,0.026243748143315315,0.00022554649331141263,0.0274666678160429,0.75,0.028746666386723518,0.00022554649331141263,0.041658751666545868,0.00022554649331141263,0.043600000441074371,0.75,0.045631669461727142,0.00022554649331141263,0.062424581497907639,0.00022554649331141263,0.065333336591720581,0.75,0.068377502262592316,0.00022554649331141263,0.10497540980577469,0.00022554649331141263,0.1098666712641716,0.75,0.11498583108186722,0.00022554649331141263,0.16663584113121033,0.00022554649331141263,0.17440000176429749,0.75,0.18252624571323395,0.00022554649331141263,0.91874998807907104,0.00022554649331141263,1,0.00022554649331141263,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"ReduceRumbleMinSetting":{"type":"array::float","value":[1,0.061583578586578369,0.375,0,0,0.00083333335351198912,1,0,1,0.0390625,0.00083408987848088145,0.75,0.0041666668839752674,0.75,0.0046875001862645149,0.75,0.0052083334885537624,0.75,1,0.75,0.91874998807907104,0.61237245798110962,1,0.61237245798110962,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"ReduceSibilanceMaxSetting":{"type":"array::float","value":[0.5,0.19983997941017151,0.18367347121238708,0.26086956262588501,0.52702701091766357,0,1,0,0,0,0,0.75,1,1,0.40000000596046448]},"ReduceSibilanceMinSetting":{"type":"array::float","value":[0.875,0.19983997941017151,0.18367347121238708,0.19130434095859528,0.25675675272941589,0,1,0,0,0,0,0.75,1,1,0.40000000596046448]}},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/Auditorium=Auditorium":{"type":"array::float","value":[0.013047545216977596,0.15895412862300873,1,0.89999997615814209,0,0.52007436752319336,0.41663265228271484,0.46000000834465027,0.5,0.73000001907348633,0.15999999642372131,0.75376886129379272,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/Church=Church":{"type":"array::float","value":[0.032663315534591675,0.39939939975738525,0.79797977209091187,0.25,0.5,0.5,0.2297959178686142,0.72000002861022949,0.5,0.62999999523162842,0.87999999523162842,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/LargeReflectiveRoom=Large Reflective Room":{"type":"array::float","value":[0.0074449013918638229,0.098988421261310577,0.79890537261962891,0.89999997615814209,0.10000000149011612,0.40110713243484497,0.060284845530986786,0.27522978186607361,0.5,0.73000001907348633,0.31999999284744263,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideTheClub=Outside the Club":{"type":"array::float","value":[0.020615793764591217,0.050136558711528778,0.69696998596191406,0.25,0.094355784356594086,0.22242647409439087,0.1071428582072258,0.2800000011920929,0.5,0.73000001907348633,0.46000000834465027,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/SmallDryRoom=Small Dry Room":{"type":"array::float","value":[0.24623115360736847,0.69975000619888306,0.29292899370193481,0.40000000596046448,0.20000000298023224,0.40000000596046448,0.039285715669393539,0.10000000149011612,0.5,1,0.5,0.75376886129379272,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/ThickenVoice=Thicken Voice":{"type":"array::float","value":[0.19597999751567841,0.23931467533111572,0.69696998596191406,0.25,0.5,0.53999996185302734,0.020408162847161293,0.20945435762405396,0.5,1,0.34999999403953552,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WarmRoom=Warm Room":{"type":"array::float","value":[0.020100502297282219,0.074074074625968933,0.49494948983192444,0.40000000596046448,0.74960309267044067,0.40000000596046448,0.1239795908331871,0.67000001668930054,0.5,0.85000002384185791,0.56000000238418579,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WarmVoice=Warm Voice":{"type":"array::float","value":[0.19597989320755005,0.89989989995956421,0,0.40000000596046448,0.20000000298023224,0.40000000596046448,0.10204081982374191,0.090000003576278687,0.5,1,0.30000001192092896,0.25125628709793091,0.03125]}}}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":2},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"353811fa-4179-435e-8e5e-23028ba15a7a","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"generic","Models":{"model_loudness":{"DefaultLoudness":{"type":"float","value":-24},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"31ba96a6-5d3e-4d89-b1e1-1dbe3c055d0c","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"music","Models":{"model_ducking":{},"model_duration":{},"model_loudness":{"DefaultLoudness":{"type":"float","value":-25},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"cea63332-1adc-44a9-a6eb-5490f965859b","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"sfx","Models":{"model_loudness":{"DefaultLoudness":{"type":"float","value":-21},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_pan":{},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/HeavyReverb=Heavy Reverb":{"type":"array::float","value":[0.13316600024700165,0.29929900169372559,1,0.95999997854232788,0.85000002384185791,0.5,0.51530599594116211,0.30000001192092896,0.5,0.5,0.5,0.25125628709793091,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/LightReverb=Light Reverb":{"type":"array::float","value":[0.095477402210235596,0.29929900169372559,0.090909101068973541,1,1,0.80000001192092896,0.22449000179767609,0.60000002384185791,0.5,0.69999998807907104,0.30000001192092896,0.25125628709793091,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideReverb=Outside Reverb":{"type":"array::float","value":[0.091708503663539886,0.043893899768590927,1,0.5,0.20000000298023224,0.80000001192092896,0.18367299437522888,1,0.5,0,0.80000001192092896,0.25125628709793091,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/RoomReverb=Room Reverb":{"type":"array::float","value":[0.057788901031017303,0.44944900274276733,0.49494898319244385,0.89999997615814209,0.10000000149011612,0.15000000596046448,0.081632703542709351,0.40000000596046448,0.5,0.80000001192092896,0.20000000298023224,0.25125628709793091,0.0625]}}}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1}]</property>
+    </properties>
+  </session>
+
+  <files>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 1_001.wav" id="0" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 1_001.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 1_002.wav" id="1" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 1_002.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 1_023.wav" id="2" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 1_023.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 1_024.wav" id="3" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 1_024.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 2_003.wav" id="4" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 2_003.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 2_009.wav" id="5" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 2_009.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 2_025.wav" id="6" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 2_025.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 2_026.wav" id="7" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 2_026.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 2_027.wav" id="8" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 2_027.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 3_010.wav" id="9" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 3_010.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 3_021.wav" id="10" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 3_021.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 3_022.wav" id="11" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 3_022.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 4_011.wav" id="12" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 4_011.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 4_012.wav" id="13" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 4_012.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 5_014.wav" id="14" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 5_014.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 5_016.wav" id="15" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 5_016.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 5_017.wav" id="16" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 5_017.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 6_018.wav" id="17" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 6_018.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 6_019.wav" id="18" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 6_019.wav"/>
+    <file absolutePath="D:\git_project_AI\sound\1230_Recorded\トラック 6_020.wav" id="19" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" relativePath="1230_Recorded/トラック 6_020.wav"/>
+  </files>
+
+  <audioDevice inputID="1D58A5F2-E70A-43C6-A712-7194CEDE46CE" outputID="2760083D-A359-44AC-913D-42FB2BC2C842">
+    <inputPort id="1" name="デフォルトのステレオ入力"/>
+    <inputPort id="2" name="[01M] ライン (Steinberg UR22) 1"/>
+    <inputPort id="3" name="[02M] ライン (Steinberg UR22) 2"/>
+    <inputPort id="4" name="[01S] ライン (Steinberg UR22) 1"/>
+    <outputPort id="1" name="デフォルト出力"/>
+    <outputPort id="2" name="[01M] ライン (Steinberg UR22) 1"/>
+    <outputPort id="3" name="[02M] ライン (Steinberg UR22) 2"/>
+    <outputPort id="4" name="デフォルトのステレオ出力"/>
+    <outputPort id="5" name="[01S] ライン (Steinberg UR22) 1"/>
+    <outputPort id="6" name="デフォルトのサラウンド出力"/>
+  </audioDevice>
+
+</sesx>

@@ -71,13 +71,13 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="4608393" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="Hatsune_Miku_Alone_Remix_free_ver 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="4608393" startPoint="0" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="4608393" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="Hatsune_Miku_Alone_Remix_free_ver 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="4608393" startPoint="0" zOrder="0">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[15663497,48000]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[94,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;bb2f8a2e-cebd-4e41-a25d-6955a5fba193&quot;},&quot;Segments&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Segment_0&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Crossfade&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[35269,48000]},&quot;Duration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[132,25]},&quot;Offset&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]}}},&quot;Segment_1&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Crossfade&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[35269,48000]},&quot;Duration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[544369,6000]},&quot;Offset&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[88348,375]}}}}}}}}"/>
           <component componentGuid="99ad22b4-000f-4c8c-9834-3cd3f5471e60" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="148cdf0f-9d03-46d9-b437-c50eb75214a8" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="550a8441-ea4b-4dc7-be87-396c0a973f68" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -160,27 +160,13 @@
             <parameter index="44" name="LowGraphRange" parameterValue="1"/>
           </component>
         </trackAudioParameters>
-        <effectsRack preFader="true">
-          <component componentGuid="6bcf3b6f-da59-4c95-a809-41580e26fdf2" componentID="Audition.ComponentGroup" id="rackMix" powered="false">
-            <parameter index="0" parameterValue="1"/>
-            <parameter index="1" parameterValue="0"/>
-          </component>
-          <component componentGuid="a566396c-2108-43c6-8e6e-f841edc6e930" id="rackInput" powered="true">
-            <parameter index="0" parameterValue="1"/>
-            <parameter index="1" parameterValue="0"/>
-          </component>
-          <component componentGuid="fa9e483f-9de7-446e-a62b-e9a18012b600" id="rackOutput" powered="true">
-            <parameter index="0" parameterValue="1"/>
-            <parameter index="1" parameterValue="0"/>
-          </component>
-        </effectsRack>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="2376069" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="Hatsune_Miku_Alone_Remix_free_ver 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="2376069" startPoint="0" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="2376069" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="Hatsune_Miku_Alone_Remix_free_ver 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="2376069" startPoint="0" zOrder="0">
           <component componentGuid="a4281947-8748-4426-8886-ac2fce08e562" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="71db38ef-e63c-46b8-a271-edeb9b0fc3f1" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="92366f0a-5845-4aa9-ad40-2d4bf2b09d41" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -196,13 +182,13 @@
             <channel index="1" sourceIndex="1"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="7311477" fileID="0" hue="-1" id="1" lockedInTime="false" looped="false" name="Hatsune_Miku_Alone_Remix_free_ver 48000 1" offline="false" select="false" sourceInPoint="10728108" sourceOutPoint="15663497" startPoint="2376088" zOrder="1">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="7311477" fileID="1" hue="-1" id="1" lockedInTime="false" looped="false" name="Hatsune_Miku_Alone_Remix_free_ver 48000 1_02 48000 1" offline="false" select="false" sourceInPoint="10728108" sourceOutPoint="15663497" startPoint="2376088" zOrder="1">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[15663497,48000]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;bb2f8a2e-cebd-4e41-a25d-6955a5fba193&quot;}}}}"/>
           <component componentGuid="96af1661-6a8a-481a-89d8-601f69f278f9" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="3abbce8a-48af-418f-adad-37cd8af182bb" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="a80be21f-90d5-4f8c-b5ef-7026031344c0" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -219,7 +205,7 @@
           </channelMap>
         </audioClip>
       </audioTrack>
-      <audioTrack automationLaneOpenState="false" id="10003" index="3" select="true" visible="true">
+      <audioTrack automationLaneOpenState="false" id="10003" index="3" select="false" visible="true">
         <trackParameters trackHeight="92" trackHue="51" trackMinimized="false">
           <name>トラック 3</name>
         </trackParameters>
@@ -285,9 +271,37 @@
             <parameter index="44" name="LowGraphRange" parameterValue="1"/>
           </component>
         </trackAudioParameters>
+        <effectsRack preFader="true">
+          <component componentGuid="b7aec8b4-0d10-47e0-9b17-f4e0255e2aa3" componentID="Audition.ComponentGroup" id="rackMix" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="66a42c2f-9b24-41ae-be9d-cbb7664f8bd1" id="rackInput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="99815f5f-a120-4616-beb8-b579fbd9d94d" id="rackOutput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <slot powered="true" slotIndex="0">
+            <component componentGuid="36f831b7-8a6e-47d1-9654-ecf105e2126f" componentID="2:1767528046 iZotope Vinyl" editorHeight="554" editorLeft="1158" editorTop="185" editorVisible="true" editorWidth="601" name="iZotope Vinyl" presetName="(カスタム)">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"Stereo In","type":0}],"out":[{"layout":[100,101],"name":"Stereo Out","type":0}]}]]></busConfig>
+              <channelMap direction="input">
+                <channel index="0" sourceIndex="0"/>
+                <channel index="1" sourceIndex="1"/>
+              </channelMap>
+              <channelMap direction="output">
+                <channel index="0" sourceIndex="0"/>
+                <channel index="1" sourceIndex="1"/>
+              </channelMap>
+              <presetChunkData><![CDATA[dgIAACUrnAUDAAAAagIAAFQZAAB4nO2YXW/aMBSG7/kVFtcbSkJCwi4rtqoSFFRapl2acAJRjR05TjdU8d/nEOhCCsPVjLOiXiFs4+d8vifhuYEQavbGI/SVwBKoSJvoC3rOV/ON+1UC+UKzF4ciZhTzVfPTbnOCSQbl4/niNY5pZe3URX+5brt1tUpwmh7c27v8ijFSubZ6eYRJCtUT61e/2SLRYXeq3G+EYXECbClAtzlAt3h5OBJ71LHgMZ2fwBYJUWDn59ANTTKB+hAJc06XwSx8hFmNaDSMohTqcf4uni9Mk4eZqCnhO3IdGd9j15PyrQmGc/6n1LVoqeCZipSWwm0SO8IcL9EEeCrnzWnwww19e4gbR76VzWleEzbF5BKG4lnmUxGd95TQTRv14Qn0J/UcES6Zq5JjiqcEUJhN4xDFVABPGMG5JyhivFhJ8TKRZxLAj2gGAjaOmuxtmVqYcyykfPdZNqMgH9WOR3XPCF1a+sIdPgGPCPtptBNf6PeMAMc0NOj5f9OHxWB5P41YtvejEz868XI6cRLT1UU84fSyVGh86f9sey3fdp3ADbqdwLO8oKNqxAh4KAVIjx1txX8fQqljISbolsUp6IyDqgHaNbeoTHW1/Y55YlI/BxAuMD1P0O1uy+96Xdv3bKsbdNpOoGJQ/AsJhgaMMqOdZ0LLXlPvRgO0u/OfgbYKEFKBuZDxnZmDjkM5ocOFztpyrJZjuVbgSGWz7HbHd95gh1Zt81TyPBYsQUWLG63qXE42uT4wHatYTSW9QWqNsBIVMNdLdZyWK4vLD1zHtXzH6aiMzh/SjDO11dEHoUbpc91YN34Dj00SbAcAAABEZWZhdWx0]]></presetChunkData>
+            </component>
+          </slot>
+        </effectsRack>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </audioTrack>
-      <audioTrack automationLaneOpenState="false" id="10004" index="4" select="false" visible="true">
+      <audioTrack automationLaneOpenState="false" id="10004" index="4" select="true" visible="true">
         <trackParameters trackHeight="126" trackHue="182" trackMinimized="false">
           <name>トラック 4</name>
         </trackParameters>
@@ -300,7 +314,7 @@
           </component>
           <component componentGuid="dd5f8b5d-7143-47f1-8157-070936dc6711" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="1"/>
           </component>
           <component componentGuid="41a4f70c-e928-4fe7-b36b-c45698522694" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="パン" parameterValue="0"/>
@@ -354,13 +368,13 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="1" endPoint="297168" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="0" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="1" endPoint="297168" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="0" zOrder="0">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="0c535da3-0c30-4461-8d72-f0e0a1c8e205" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="cb32da9f-e75c-490f-9b1a-e4e8cf0026fc" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="cca3600e-7c4d-432c-87d6-e74de0334a6d" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -375,13 +389,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="0" crossFadeTailClipID="2" endPoint="586748" fileID="1" hue="-1" id="1" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="289580" zOrder="4">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="0" crossFadeTailClipID="2" endPoint="586748" fileID="0" hue="-1" id="1" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="289580" zOrder="4">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="cb437c7d-9967-48a3-b3d6-c39d3d2b271b" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="49c24562-b470-4a07-ac52-749fd1573a2c" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="34390d6a-c129-4556-8dc2-1524da3f6199" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -396,13 +410,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="1" crossFadeTailClipID="3" endPoint="876125" fileID="1" hue="-1" id="2" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="578957" zOrder="8">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="1" crossFadeTailClipID="3" endPoint="876125" fileID="0" hue="-1" id="2" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="578957" zOrder="8">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="e288bab6-3ed6-479e-aa5e-3053d67aba3d" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="7920cc0e-795f-4fe8-8273-d7ef09c9addf" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="6b74da7d-6ebb-4a57-9360-e9da91910715" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -417,13 +431,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="2" crossFadeTailClipID="4" endPoint="1165705" fileID="1" hue="-1" id="3" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="868537" zOrder="12">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="2" crossFadeTailClipID="4" endPoint="1165705" fileID="0" hue="-1" id="3" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="868537" zOrder="12">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="8f737fea-831d-4584-8a81-bfd76fe37e64" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="26cf2073-2cc8-4753-8c54-2993f55968ce" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="ef9ce59b-c60d-422b-9e74-09dc4a6c155b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -438,13 +452,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="3" crossFadeTailClipID="5" endPoint="1448503" fileID="1" hue="-1" id="4" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="1151335" zOrder="1">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="3" crossFadeTailClipID="5" endPoint="1448503" fileID="0" hue="-1" id="4" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="1151335" zOrder="1">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="46c6163a-647e-4fbd-a74d-49b11e185157" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="85ab6dab-c47b-416d-917e-c63df3ad32d7" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="47c95cf4-fd0c-4802-ad5f-849573da9811" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -459,13 +473,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="4" crossFadeTailClipID="6" endPoint="1738083" fileID="1" hue="-1" id="5" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="1440915" zOrder="5">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="4" crossFadeTailClipID="6" endPoint="1738083" fileID="0" hue="-1" id="5" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="1440915" zOrder="5">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="671b295d-fb14-42e8-84ba-16537bb538f3" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="1cc25f57-f177-4449-84ea-57cbdd86622e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="37ec74ae-43d3-42b2-a398-c39f203c5147" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -480,13 +494,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="5" crossFadeTailClipID="7" endPoint="2027460" fileID="1" hue="-1" id="6" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="1730292" zOrder="9">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="5" crossFadeTailClipID="7" endPoint="2027460" fileID="0" hue="-1" id="6" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="1730292" zOrder="9">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="4f202fd4-7190-4ca9-bcdb-c584e8a6c6f0" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="4a4b1c91-10b7-4e54-8c39-5ed0de0e8f43" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="5d918acf-a1b2-4789-8386-8faa7cabe668" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -501,13 +515,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="6" crossFadeTailClipID="8" endPoint="2317040" fileID="1" hue="-1" id="7" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="2019872" zOrder="13">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="6" crossFadeTailClipID="8" endPoint="2317040" fileID="0" hue="-1" id="7" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="2019872" zOrder="13">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="30b6bfc6-238d-46ba-a9ab-9dc350992038" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="ecf40fb4-1288-4e11-a6fc-1d2594ed701d" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="35399240-a6d7-41b7-a06d-bef507e4f6c4" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -522,13 +536,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="7" crossFadeTailClipID="9" endPoint="2597945" fileID="1" hue="-1" id="8" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="2300777" zOrder="16">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="7" crossFadeTailClipID="9" endPoint="2597945" fileID="0" hue="-1" id="8" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="2300777" zOrder="16">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="8222456e-9a61-4471-abcd-bd47a5bb668a" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="a5b199db-3d10-4d26-a463-94dee45252e3" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="81647463-e1dd-4b55-839e-400529d478de" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -543,13 +557,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="8" crossFadeTailClipID="10" endPoint="2887525" fileID="1" hue="-1" id="9" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="2590357" zOrder="20">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="8" crossFadeTailClipID="10" endPoint="2887525" fileID="0" hue="-1" id="9" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="2590357" zOrder="20">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="9c176fca-a6d0-42b2-a482-34abdc8872a4" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="cbedb92c-7f33-4e7d-972a-caa0e72a67d0" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="421e7daf-694e-4beb-b55a-b4f83cd8d6e3" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -564,13 +578,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="9" crossFadeTailClipID="11" endPoint="3176902" fileID="1" hue="-1" id="10" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="2879734" zOrder="26">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="9" crossFadeTailClipID="11" endPoint="3176902" fileID="0" hue="-1" id="10" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="2879734" zOrder="26">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="52016a07-d673-4d02-8134-47cb1a983560" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="812bc1da-fb2b-441f-bcb8-da8f09a4999b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="939b7f20-a188-4867-8268-67b060feb504" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -585,13 +599,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="10" crossFadeTailClipID="12" endPoint="3466482" fileID="1" hue="-1" id="11" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="3169314" zOrder="28">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="10" crossFadeTailClipID="12" endPoint="3466482" fileID="0" hue="-1" id="11" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="3169314" zOrder="28">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="6c8c0bc6-7a91-4f34-8727-b0e6f7582f59" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="9b0cc80a-7394-43ec-aecd-85fb0fa2faef" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="361e8e21-d48d-435f-b997-6b3768db0e21" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -606,13 +620,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="11" crossFadeTailClipID="13" endPoint="3749280" fileID="1" hue="-1" id="12" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="3452112" zOrder="18">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="11" crossFadeTailClipID="13" endPoint="3749280" fileID="0" hue="-1" id="12" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="3452112" zOrder="18">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="c79b7fcb-95fc-4e69-b971-058829df188b" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="761e1b82-d386-4a38-b797-614ed056693e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="6f088573-82ec-4f5d-8d4f-bb79e8d40f05" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -627,13 +641,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="12" crossFadeTailClipID="14" endPoint="4038860" fileID="1" hue="-1" id="13" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="3741692" zOrder="22">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="12" crossFadeTailClipID="14" endPoint="4038860" fileID="0" hue="-1" id="13" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="3741692" zOrder="22">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="a3614089-1eec-408a-ae17-57d952f4e685" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="9508b371-b076-4ae3-8c1a-e878d7ca079b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="4e7d763b-7014-4d2d-8747-b303403850ae" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -648,13 +662,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="13" crossFadeTailClipID="15" endPoint="4328237" fileID="1" hue="-1" id="14" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="4031069" zOrder="24">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="13" crossFadeTailClipID="15" endPoint="4328237" fileID="0" hue="-1" id="14" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="4031069" zOrder="24">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="9f3e8954-ab09-4243-b7ed-4b2327765ace" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="811d2707-0957-496e-a29e-792ccf8789d6" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="bf2ad7ac-0b5e-4fdc-bfa4-90d6498f7067" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -669,13 +683,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="14" crossFadeTailClipID="16" endPoint="4617817" fileID="1" hue="-1" id="15" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="4320649" zOrder="30">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="14" crossFadeTailClipID="16" endPoint="4617817" fileID="0" hue="-1" id="15" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="4320649" zOrder="30">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="86cf1006-c243-4c44-adf1-87d9ca2d34c6" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="27fb84f8-fc39-4fd7-9f6b-d9c7767fa2d5" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="dfd8c5ce-3dbf-4f21-b10c-9d814fbe9872" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -690,13 +704,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="15" crossFadeTailClipID="17" endPoint="4894876" fileID="1" hue="-1" id="16" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="4597708" zOrder="2">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="15" crossFadeTailClipID="17" endPoint="4894876" fileID="0" hue="-1" id="16" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="4597708" zOrder="2">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="68a5f5b8-d710-4bce-bac2-94c3ec1e9adb" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="6ad48ac5-75b9-4f5a-a11d-18de45f6e1a2" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="5e5915ff-becd-4c60-8372-a413e508c05c" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -711,13 +725,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="16" crossFadeTailClipID="18" endPoint="5184456" fileID="1" hue="-1" id="17" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="4887288" zOrder="6">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="16" crossFadeTailClipID="18" endPoint="5184456" fileID="0" hue="-1" id="17" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="4887288" zOrder="6">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="675799f6-11f0-4416-8759-2929c713c64e" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="544714ee-9e77-49f4-a5fc-06328c02583d" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="c28a4c14-53a0-480c-a376-631e55844a8e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -732,13 +746,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="17" crossFadeTailClipID="19" endPoint="5473833" fileID="1" hue="-1" id="18" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="5176665" zOrder="10">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="17" crossFadeTailClipID="19" endPoint="5473833" fileID="0" hue="-1" id="18" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="5176665" zOrder="10">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="21867c9c-8503-40e0-89de-462729f3a804" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="2e1a8ede-a9a2-478b-856d-2b0457161c91" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="3e5b6e23-a392-439d-a998-57dcb674548f" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -753,13 +767,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="18" crossFadeTailClipID="20" endPoint="5763413" fileID="1" hue="-1" id="19" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="5466245" zOrder="14">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="18" crossFadeTailClipID="20" endPoint="5763413" fileID="0" hue="-1" id="19" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="5466245" zOrder="14">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="50f9995c-42ee-4446-a90a-c722953af56f" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="c276f3d0-da81-4d20-bbbf-90ca0bd6c45b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="161a9651-3664-45e3-a904-f1b411eab1f5" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -774,13 +788,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="19" crossFadeTailClipID="21" endPoint="6046211" fileID="1" hue="-1" id="20" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="5749043" zOrder="3">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="19" crossFadeTailClipID="21" endPoint="6046211" fileID="0" hue="-1" id="20" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="5749043" zOrder="3">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="24dbb045-1571-414f-8d38-91d9d54d44b6" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="aab57438-51e0-45b1-8c65-6ed1073b3f50" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="886bd708-ee8b-4975-87f5-fa85a2748831" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -795,13 +809,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="20" crossFadeTailClipID="22" endPoint="6335791" fileID="1" hue="-1" id="21" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="6038623" zOrder="7">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="20" crossFadeTailClipID="22" endPoint="6335791" fileID="0" hue="-1" id="21" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="6038623" zOrder="7">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="2ecd83ea-9ff0-4375-b9b9-57007389f471" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="f7c4b849-be6a-4577-a3ed-2a6cff647b74" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="b5642cbd-2956-43ba-b36c-4184ae8156d4" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -816,13 +830,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="21" crossFadeTailClipID="23" endPoint="6625168" fileID="1" hue="-1" id="22" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="6328000" zOrder="11">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="21" crossFadeTailClipID="23" endPoint="6625168" fileID="0" hue="-1" id="22" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="6328000" zOrder="11">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="7981a43c-a380-4b38-8e25-2a35639f69f7" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="114f0ed3-53d4-412b-a05f-86ad0b87715d" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="b3d7c4be-dfab-4522-bc7e-b2602262334b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -837,13 +851,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="22" crossFadeTailClipID="24" endPoint="6914748" fileID="1" hue="-1" id="23" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="6617580" zOrder="15">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="22" crossFadeTailClipID="24" endPoint="6914748" fileID="0" hue="-1" id="23" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="6617580" zOrder="15">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="75d43745-c5cf-4fe1-8cf8-68e8e991216c" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="81312ccb-817c-49b4-b9da-2aad148b51c0" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="9bb583fb-e11f-4733-8443-6a2d804398d8" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -858,13 +872,13 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="23" crossFadeTailClipID="-1" endPoint="7195653" fileID="1" hue="-1" id="24" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="6898485" zOrder="17">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="23" crossFadeTailClipID="-1" endPoint="7195653" fileID="0" hue="-1" id="24" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="6898485" zOrder="17">
           <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
           <component componentGuid="037bf7a6-f5a0-4294-97ff-4909486ce91c" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="ac2e48d0-6551-462c-aba6-315bbc0338da" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="c73bc4eb-2166-415f-8ca3-ed8f41cbdf89" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1085,9 +1099,9 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </masterTrack>
     </tracks>
-    <sessionState ctiPosition="259995" smpteStart="0">
-      <selectionState selectionDuration="0" selectionStart="259995"/>
-      <viewState horizontalViewDuration="9464338" horizontalViewStart="0" trackControlsWidth="224" verticalScrollOffset="0"/>
+    <sessionState ctiPosition="3208188" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="3208188"/>
+      <viewState horizontalViewDuration="8837958" horizontalViewStart="0" trackControlsWidth="224" verticalScrollOffset="0"/>
       <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatBarsAndBeats"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3" playOverlappingClips="false"/>
     </sessionState>
@@ -1103,9 +1117,9 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition 13.0 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2020-01-15T04:02:32+09:00</xmp:CreateDate>
-         <xmp:MetadataDate>2020-01-15T05:24:48+09:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2020-01-15T05:24:48+09:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:f6c3a120-6f04-d840-9348-acea299fd61d</xmpMM:InstanceID>
+         <xmp:MetadataDate>2020-01-17T01:04:46+09:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2020-01-17T01:04:46+09:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:6454d009-df14-d549-aa58-452f5d05d06c</xmpMM:InstanceID>
          <xmpMM:DocumentID>xmp.did:f6c3a120-6f04-d840-9348-acea299fd61d</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:1e560b9d-1435-fd46-96d6-ec905738063d</xmpMM:OriginalDocumentID>
          <xmpMM:History>
@@ -1128,6 +1142,20 @@
                   <stEvt:action>saved</stEvt:action>
                   <stEvt:instanceID>xmp.iid:f6c3a120-6f04-d840-9348-acea299fd61d</stEvt:instanceID>
                   <stEvt:when>2020-01-15T05:24:48+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 13.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:cf3437b9-c124-ab48-ab9e-0911f54d3686</stEvt:instanceID>
+                  <stEvt:when>2020-01-17T01:04:46+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 13.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6454d009-df14-d549-aa58-452f5d05d06c</stEvt:instanceID>
+                  <stEvt:when>2020-01-17T01:04:46+09:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition 13.0 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
@@ -1260,8 +1288,8 @@
   </session>
 
   <files>
-    <file absolutePath="D:\git_project_AI\sound\BGM\D_elf\neehiorinisinaide\Conformed Files\Hatsune_Miku_Alone_Remix_free_ver 48000 1.wav" id="0" mediaHandler="AmioWav" relativePath="Conformed Files/Hatsune_Miku_Alone_Remix_free_ver 48000 1.wav"/>
-    <file absolutePath="D:\git_project_AI\sound\BGM\D_elf\neehiorinisinaide\Conformed Files\レコードプレイヤー・再生ループ 48000 1.wav" id="1" mediaHandler="AmioWav" relativePath="Conformed Files/レコードプレイヤー・再生ループ 48000 1.wav"/>
+    <file absolutePath="D:\git_Project_AI\sound\BGM\D_elf\neehiorinisinaide\読み込まれたファイル\レコードプレイヤー・再生ループ 48000 1.wav" id="0" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="読み込まれたファイル/レコードプレイヤー・再生ループ 48000 1.wav"/>
+    <file absolutePath="D:\git_Project_AI\sound\BGM\D_elf\neehiorinisinaide\Conformed Files\Hatsune_Miku_Alone_Remix_free_ver 48000 1_02 48000 1.wav" id="1" mediaHandler="AmioWav" relativePath="Conformed Files/Hatsune_Miku_Alone_Remix_free_ver 48000 1_02 48000 1.wav"/>
   </files>
 
   <audioDevice inputID="FA22ADEC-56A1-4276-9EA4-7E460D75F30E" outputID="17C92079-2199-459E-826D-F2905115BBE0">

@@ -1,0 +1,1280 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE sesx>
+<sesx version="1.6">
+
+  <session appBuild="11.1.1.3" appVersion="11.1" audioChannelType="stereo" bitDepth="32" duration="22266153" sampleRate="48000">
+    <tracks>
+      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="false" visible="true">
+        <trackParameters trackHeight="155" trackHue="160" trackMinimized="false">
+          <name>トラック 1</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="38ccea9f-a87e-41b2-a687-435d96ec4d9a" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.2985383"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="33b5eba2-1ed8-4f83-9578-0be249fb2720" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="1"/>
+          </component>
+          <component componentGuid="5cfdec6f-10f2-4e51-bffc-f8fbd9b58d69" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="aa2ad4a6-a018-493e-8e51-5b9c6bbf4f0d" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.7497915"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.6666667"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.01"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.04"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.16"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.64"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.8331943"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="4608393" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="Hatsune_Miku_Alone_Remix_free_ver 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="4608393" startPoint="0" zOrder="0">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[15663497,48000]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[94,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;bb2f8a2e-cebd-4e41-a25d-6955a5fba193&quot;},&quot;Segments&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Segment_0&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Crossfade&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[35269,48000]},&quot;Duration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[132,25]},&quot;Offset&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]}}},&quot;Segment_1&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Crossfade&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[35269,48000]},&quot;Duration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[544369,6000]},&quot;Offset&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[88348,375]}}}}}}}}"/>
+          <component componentGuid="99ad22b4-000f-4c8c-9834-3cd3f5471e60" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="b55ca716-40e7-4152-8af0-dba694fce02e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="1061d1b4-0652-49be-a5f5-d9258d827877" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="4608393" shape="0" startPoint="4608393" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
+        <trackParameters trackHeight="222" trackHue="267" trackMinimized="false">
+          <name>トラック 2</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="4e155eaa-19b6-43ec-ad6e-064b20766abc" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.1972423"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="ae537d53-3c2a-42e7-a19b-7d31285e8fc7" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="15653518-5e8f-4012-bad5-1753acb487df" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="a7dd5424-af8a-4522-b72a-d1bab1ed9343" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.7497915"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.6666667"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.01"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.04"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.16"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.64"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.8331943"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="2376069" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="Hatsune_Miku_Alone_Remix_free_ver 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="2376069" startPoint="0" zOrder="0">
+          <component componentGuid="a4281947-8748-4426-8886-ac2fce08e562" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="6bc03ba7-6921-49e8-bb52-fd90b7b96645" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="fde36dbf-1274-4259-9a80-7e704873d804" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="2376069" shape="19" startPoint="2376069" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="7311477" fileID="0" hue="-1" id="1" lockedInTime="false" looped="false" name="Hatsune_Miku_Alone_Remix_free_ver 48000 1" offline="false" select="false" sourceInPoint="10728108" sourceOutPoint="15663497" startPoint="2376088" zOrder="1">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[15663497,48000]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;bb2f8a2e-cebd-4e41-a25d-6955a5fba193&quot;}}}}"/>
+          <component componentGuid="96af1661-6a8a-481a-89d8-601f69f278f9" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="c5505bb1-496d-421c-86c2-c1afbc32c6da" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="5bf4a886-1f56-45ba-8e08-d1f4f8a735e3" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="4935389" shape="0" startPoint="4935389" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10003" index="3" select="true" visible="true">
+        <trackParameters trackHeight="92" trackHue="51" trackMinimized="false">
+          <name>トラック 3</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="06a9d573-d2ca-4c26-82f7-8c662839ef71" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="7c2ed266-1c2b-4de5-a35e-9b9fba42fa0b" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="eb7687ae-1434-4404-a919-9af500464349" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="ee19e43a-0c2a-4fbd-b65e-1dae3fb61801" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.7497915"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.6666667"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.01"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.04"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.16"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.64"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.8331943"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10004" index="4" select="false" visible="true">
+        <trackParameters trackHeight="126" trackHue="182" trackMinimized="false">
+          <name>トラック 4</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="ac362465-a9d8-452d-93f3-91b14a2f6328" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.3935501"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="dd5f8b5d-7143-47f1-8157-070936dc6711" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="41a4f70c-e928-4fe7-b36b-c45698522694" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="08e208ca-05cf-48c8-8731-fb84de50f790" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.7497915"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.6666667"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.01"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.04"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.16"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.64"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.8331943"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="1" endPoint="297168" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="0" zOrder="0">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="0c535da3-0c30-4461-8d72-f0e0a1c8e205" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="e6e6a9b7-aa2d-4cd6-b375-022af9594c2d" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="21bf3ac1-ff85-476f-969d-937e52e8ad19" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289580" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="0" crossFadeTailClipID="2" endPoint="586748" fileID="1" hue="-1" id="1" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="289580" zOrder="4">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="cb437c7d-9967-48a3-b3d6-c39d3d2b271b" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="a96f805b-99e3-49e4-824d-01a2c9b723f2" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="f6411eb1-7ba5-49e0-85fd-bf0ec49d276c" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7588" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289377" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="1" crossFadeTailClipID="3" endPoint="876125" fileID="1" hue="-1" id="2" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="578957" zOrder="8">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="e288bab6-3ed6-479e-aa5e-3053d67aba3d" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="a2e8196f-43ff-4443-91e0-0f0b5f90ebcf" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="c2f7b45c-eca8-4fe6-bc99-b915178738bc" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7791" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289580" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="2" crossFadeTailClipID="4" endPoint="1165705" fileID="1" hue="-1" id="3" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="868537" zOrder="12">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="8f737fea-831d-4584-8a81-bfd76fe37e64" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="49971120-2d29-4a8b-83b0-7d9a8a48d049" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="c6720b68-505f-4d74-8b16-387fc0c9228b" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7588" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="18" startPoint="282798" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="3" crossFadeTailClipID="5" endPoint="1448503" fileID="1" hue="-1" id="4" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="1151335" zOrder="1">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="46c6163a-647e-4fbd-a74d-49b11e185157" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="bf2e4024-5c05-4133-9fa0-43779abf01d4" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="f31d9df1-4c8a-4fe1-9309-b3e3efaa07b9" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="14370" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289580" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="4" crossFadeTailClipID="6" endPoint="1738083" fileID="1" hue="-1" id="5" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="1440915" zOrder="5">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="671b295d-fb14-42e8-84ba-16537bb538f3" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="a2c8e748-7177-48c5-949b-5beeffc5c41b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="afd99430-cf87-4ca4-b5d7-c8d55907fc8b" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7588" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289377" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="5" crossFadeTailClipID="7" endPoint="2027460" fileID="1" hue="-1" id="6" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="1730292" zOrder="9">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="4f202fd4-7190-4ca9-bcdb-c584e8a6c6f0" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="35667d78-adca-48b4-b9a3-59dcb6851fd8" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="fbc8a2f0-cdc3-4d10-83cc-bb8749564561" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7791" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289580" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="6" crossFadeTailClipID="8" endPoint="2317040" fileID="1" hue="-1" id="7" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="2019872" zOrder="13">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="30b6bfc6-238d-46ba-a9ab-9dc350992038" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="b1ebc296-6888-4056-997e-094740a3c1e3" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="f9becdd8-9c02-4aa7-a640-1142c10f463f" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7588" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="280905" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="7" crossFadeTailClipID="9" endPoint="2597945" fileID="1" hue="-1" id="8" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="2300777" zOrder="16">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="8222456e-9a61-4471-abcd-bd47a5bb668a" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="7a90e131-07c7-46ff-b65c-c7d69da4b42b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="5d0f25ff-eb72-4021-8827-5e2fbcbedb3c" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="16263" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289580" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="8" crossFadeTailClipID="10" endPoint="2887525" fileID="1" hue="-1" id="9" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="2590357" zOrder="20">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="9c176fca-a6d0-42b2-a482-34abdc8872a4" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="fb835bcb-c09f-42bc-9162-4ae4b80979ba" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="94a8ec65-fe76-40e0-8a85-fe5c0f2114a1" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7588" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289377" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="9" crossFadeTailClipID="11" endPoint="3176902" fileID="1" hue="-1" id="10" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="2879734" zOrder="26">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="52016a07-d673-4d02-8134-47cb1a983560" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="741a0ea6-53a2-4037-99bd-9135908db3d7" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="f360f4c6-9427-45d3-96be-3683aac2397c" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7791" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289580" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="10" crossFadeTailClipID="12" endPoint="3466482" fileID="1" hue="-1" id="11" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="3169314" zOrder="28">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="6c8c0bc6-7a91-4f34-8727-b0e6f7582f59" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="49409cf6-ccb7-4c2a-9ef9-cc15fd2bb4ef" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="25c7971f-76f8-41fd-8af3-dff87ed43d47" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7588" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="18" startPoint="282798" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="11" crossFadeTailClipID="13" endPoint="3749280" fileID="1" hue="-1" id="12" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="3452112" zOrder="18">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="c79b7fcb-95fc-4e69-b971-058829df188b" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="b90d6274-be2e-46e2-af71-e4e460e36ba1" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="a9f2938f-84eb-4383-b4c0-57bf256a3806" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="14370" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289580" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="12" crossFadeTailClipID="14" endPoint="4038860" fileID="1" hue="-1" id="13" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="3741692" zOrder="22">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="a3614089-1eec-408a-ae17-57d952f4e685" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="e193dc68-a9f5-43d3-9e29-73a20a05a343" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="36b6b9d9-0b08-4008-ae24-2e18bcc7c9a6" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7588" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289377" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="13" crossFadeTailClipID="15" endPoint="4328237" fileID="1" hue="-1" id="14" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="4031069" zOrder="24">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="9f3e8954-ab09-4243-b7ed-4b2327765ace" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="c967972c-d238-4f29-9166-fee1744267d2" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="6b2c9fb9-2bee-4c66-9f86-23ad0a5de693" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7791" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289580" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="14" crossFadeTailClipID="16" endPoint="4617817" fileID="1" hue="-1" id="15" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="4320649" zOrder="30">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="86cf1006-c243-4c44-adf1-87d9ca2d34c6" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="f9836f33-bbd1-4f29-8fe7-fb486160b272" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="71c66bb3-8418-43ae-a2b0-56d2ff68b62e" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7588" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="18" startPoint="277059" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="15" crossFadeTailClipID="17" endPoint="4894876" fileID="1" hue="-1" id="16" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="4597708" zOrder="2">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="68a5f5b8-d710-4bce-bac2-94c3ec1e9adb" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="217210fb-446c-4380-b0ce-451f5b0d4924" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="0cf3bc6e-e6d6-48a1-bf7b-f9a75677e130" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="20109" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289580" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="16" crossFadeTailClipID="18" endPoint="5184456" fileID="1" hue="-1" id="17" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="4887288" zOrder="6">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="675799f6-11f0-4416-8759-2929c713c64e" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="1f4353b1-69a8-4b16-b56d-f15116a210dd" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="4f2ffac8-6a20-4996-9e04-d48a4c203103" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7588" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289377" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="17" crossFadeTailClipID="19" endPoint="5473833" fileID="1" hue="-1" id="18" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="5176665" zOrder="10">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="21867c9c-8503-40e0-89de-462729f3a804" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="bd6d9c93-0bfd-46ee-bd34-0b2c9ca4650b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="f44e7f97-3a03-4620-b130-07191d35af89" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7791" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289580" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="18" crossFadeTailClipID="20" endPoint="5763413" fileID="1" hue="-1" id="19" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="5466245" zOrder="14">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="50f9995c-42ee-4446-a90a-c722953af56f" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="964120c9-7131-45fc-a120-ba338594ebfb" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="a679d248-70ea-426a-938c-eef2d4fff441" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7588" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="18" startPoint="282798" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="19" crossFadeTailClipID="21" endPoint="6046211" fileID="1" hue="-1" id="20" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="5749043" zOrder="3">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="24dbb045-1571-414f-8d38-91d9d54d44b6" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="c1584bb5-f49d-4832-b686-22e4024a10ed" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="4ee777c3-67c8-4620-84a8-6ad2dfe0f867" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="14370" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289580" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="20" crossFadeTailClipID="22" endPoint="6335791" fileID="1" hue="-1" id="21" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="6038623" zOrder="7">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="2ecd83ea-9ff0-4375-b9b9-57007389f471" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="e1aad850-e2f0-4403-920d-d1e9be712a5f" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="4389eb82-ffca-46bc-95c3-34fcb0f383aa" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7588" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289377" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="21" crossFadeTailClipID="23" endPoint="6625168" fileID="1" hue="-1" id="22" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="6328000" zOrder="11">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="7981a43c-a380-4b38-8e25-2a35639f69f7" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="ab8d9de2-8ac8-4814-929d-bf5a11347b84" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="51d3cd16-6e27-4e04-b356-308802f9030f" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7791" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="289580" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="22" crossFadeTailClipID="24" endPoint="6914748" fileID="1" hue="-1" id="23" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="6617580" zOrder="15">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="75d43745-c5cf-4fe1-8cf8-68e8e991216c" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="02c04cf3-c89d-4a33-8136-9dea0264fd60" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="c7b2391d-2d0f-4bda-867e-042f53868978" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7588" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="19" startPoint="280905" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="23" crossFadeTailClipID="-1" endPoint="7195653" fileID="1" hue="-1" id="24" lockedInTime="false" looped="false" name="レコードプレイヤー・再生ループ 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="297168" startPoint="6898485" zOrder="17">
+          <properties properties="{&quot;ClipRemixParameters&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ChromaWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EditLength&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1},&quot;EndAtEnd&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;MaximumSlack&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:5},&quot;MinimumLoopBeats&quot;:{&quot;type&quot;:&quot;std::uint32_t&quot;,&quot;value&quot;:8},&quot;MusicRetargetingEnabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;SourceClipDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[-1,1]},&quot;SourceClipRangeStart&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;SplitIntoSegments&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;StartAtBeginning&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;StretchExact&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false},&quot;TargetDuration&quot;:{&quot;type&quot;:&quot;array::std::int64_t&quot;,&quot;value&quot;:[0,1]},&quot;TimbreWeight&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}},&quot;ClipRetargetSourceSettings&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;ComponentKeyframeInfoKey&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}},&quot;RemixResults&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AnalysisDataGuid&quot;:{&quot;type&quot;:&quot;UTF16String&quot;,&quot;value&quot;:&quot;68bb32ce-125c-4136-b165-60172bdce869&quot;}}}}"/>
+          <component componentGuid="037bf7a6-f5a0-4294-97ff-4909486ce91c" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="a2c900cf-c9c6-4463-80fc-a085e6813eb5" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="3b11b664-8394-4a28-9b5c-7862f0f3eeaa" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="16263" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="297168" shape="9" startPoint="25024" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10005" index="5" select="false" visible="true">
+        <trackParameters trackHeight="92" trackHue="294" trackMinimized="false">
+          <name>トラック 5</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="7e40a8a4-4adc-41b9-8154-44070a03fdc1" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="2870e7be-dcc9-4160-b5d5-fc95a8691f74" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="6060921b-9c69-41f2-8729-3ab37f9ae7ad" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="b4e0b889-27a7-4e74-9318-6de45c1df739" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.7497915"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.6666667"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.01"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.04"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.16"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.64"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.8331943"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10006" index="6" select="false" visible="true">
+        <trackParameters trackHeight="92" trackHue="92" trackMinimized="false">
+          <name>トラック 6</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="dbe0c044-de0f-4f4b-b9c7-5a5f72779aef" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="1fa563d3-3bf2-4368-b189-f70f19ab75de" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="aff46c6f-2c92-4974-b7eb-014947792d29" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="db43d908-e3c0-407f-85a9-73cdc4f4c0b0" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.7497915"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.6666667"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.01"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.04"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.16"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.64"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.8331943"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <masterTrack automationLaneOpenState="false" id="10000" index="7" select="false" visible="true">
+        <trackParameters trackHeight="111" trackHue="-1" trackMinimized="false">
+          <name>マスター</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
+          <trackOutput outputID="1" type="hardwareOutput"/>
+          <trackInput inputID="-1"/>
+          <component componentGuid="73ee7ba6-3edc-40fa-9a2a-81ff62c41707" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="4dd96ece-0cc6-4c61-a35e-cad40fa30492" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="2fead34a-24c8-4d8f-bd5a-55db0b6f338d" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="3a89a24e-0b36-46fa-9f94-9ffa20472597" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.7497915"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.6666667"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.01"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.04"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.16"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.64"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.8331943"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </masterTrack>
+    </tracks>
+    <sessionState ctiPosition="259995" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="259995"/>
+      <viewState horizontalViewDuration="9464338" horizontalViewStart="0" trackControlsWidth="224" verticalScrollOffset="0"/>
+      <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
+      <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3"/>
+    </sessionState>
+    <xmpMetadata><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c144 79.162045, 2018/01/23-06:05:52        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
+         <xmp:CreatorTool>Adobe Audition 13.0 (Windows)</xmp:CreatorTool>
+         <xmp:CreateDate>2020-01-15T04:02:32+09:00</xmp:CreateDate>
+         <xmp:MetadataDate>2020-01-16T12:20:49+09:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2020-01-16T12:20:49+09:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:563f2044-2627-414f-9983-6db3461cdf4a</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:563f2044-2627-414f-9983-6db3461cdf4a</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>xmp.did:1e560b9d-1435-fd46-96d6-ec905738063d</xmpMM:OriginalDocumentID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:1e560b9d-1435-fd46-96d6-ec905738063d</stEvt:instanceID>
+                  <stEvt:when>2020-01-15T04:02:32+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 13.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:c25ed802-9b4a-ee4c-92c3-1c98d116a943</stEvt:instanceID>
+                  <stEvt:when>2020-01-15T05:24:48+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 13.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f6c3a120-6f04-d840-9348-acea299fd61d</stEvt:instanceID>
+                  <stEvt:when>2020-01-15T05:24:48+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 13.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:477aaf36-c8e1-1644-92ae-adcf714ca0de</stEvt:instanceID>
+                  <stEvt:when>2020-01-16T12:20:49+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2018.1 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:563f2044-2627-414f-9983-6db3461cdf4a</stEvt:instanceID>
+                  <stEvt:when>2020-01-16T12:20:49+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2018.1 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>xmp.iid:477aaf36-c8e1-1644-92ae-adcf714ca0de</stRef:instanceID>
+            <stRef:documentID>xmp.did:f6c3a120-6f04-d840-9348-acea299fd61d</stRef:documentID>
+            <stRef:originalDocumentID>xmp.did:1e560b9d-1435-fd46-96d6-ec905738063d</stRef:originalDocumentID>
+         </xmpMM:DerivedFrom>
+         <dc:format>application/xml</dc:format>
+         <xmpDM:Tracks>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CuePoint Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Cue</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CD Track Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Track</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>Subclip Markers</xmpDM:trackName>
+                  <xmpDM:trackType>InOut</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpDM:Tracks>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>]]></xmpMetadata>
+    <clipGroups/>
+    <metronome enabled="false" pattern="downBeat subdivision subdivision subdivision " soundSet="sticks">
+      <metronomeTrack automationLaneOpenState="false" id="40000" index="0" select="false" visible="false">
+        <trackParameters trackHeight="77" trackHue="-1" trackMinimized="false">
+          <name>メトロノーム</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="mono" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="-1"/>
+          <component componentGuid="06ab6939-a86d-476e-a86f-482e4f6c5102" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.5011872"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="75c85476-0fe1-4d66-a639-2dca844d3157" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="61a3af18-6486-4828-92f7-ae89d314378a" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="6ff7cd3d-f6bd-4829-a9a9-b27bb1ca2599" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.7497915"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.6666667"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.01"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.04"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.16"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.64"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.8331943"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </metronomeTrack>
+    </metronome>
+    <properties>
+      <property key="EssentialSoundConfigurations">[{"Guid":"a8b40e3e-13e7-4c1f-b382-96058f1f691d","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"ambience","Models":{"model_ducking":{},"model_loudness":{"DefaultLoudness":{"type":"float","value":-30},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/LargeRoomAmbience=Large Room Ambience":{"type":"array::float","value":[0.051507499068975449,0.32432401180267334,0.29292899370193481,0.30000001192092896,0.20000000298023224,0,0.14285700023174286,0.40000000596046448,0.5,0.69999998807907104,0.30000001192092896,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideAmbience=Outside Ambience":{"type":"array::float","value":[0.091708503663539886,0.043893899768590927,1,0.5,0.20000000298023224,0.80000001192092896,0.18367299437522888,1,0.5,0,0.80000001192092896,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/RoomAmbience=Room Ambience":{"type":"array::float","value":[0.057788901031017303,0.44944900274276733,0.49494898319244385,0.89999997615814209,0.10000000149011612,0.15000000596046448,0.081632703542709351,0.40000000596046448,0.5,0.80000001192092896,0.20000000298023224,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WindEffect=Wind Effect":{"type":"array::float","value":[0.19597999751567841,0.6896899938583374,0.69696998596191406,0.25,0.5,0.5,0.23469400405883789,0.51999998092651367,0.5,0.75,0.25,0.25125628709793091,0.03125]}}}},"model_stereowidth":{},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"58dc27a8-6a2a-480c-bd0c-4b45fff346a6","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"dialog","Models":{"model_clarity":{"EQPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/EQPreset/BackgroundVoice=Background Voice":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.5,0.5,0.5,0.5,0.5,0.47827938199043274,0.45772689580917358,0.45778733491897583,0.47946760058403015,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/Intercom=Intercom":{"type":"array::float","value":[0.19432899355888367,0.5,1,0,0.071499988436698914,0.071499988436698914,0.071499988436698914,0.40238627791404724,0.48571401834487915,0.5,0.55155748128890991,0.59602576494216919,0.22246670722961426,0.071499988436698914,0]},"$$$/app/Presets/EssentialSound/EQPreset/LockedInTheTrunk=Locked in the Trunk":{"type":"array::float","value":[0.12099699676036835,0.5,0.79746836423873901,0,0.5,0.5,0.5,0.5,0.5,0.32846158742904663,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/OldRadio=Old Radio":{"type":"array::float","value":[0.12099699676036835,0.5,0.79746836423873901,0,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.28442040085792542,0.48315632343292236,0.36498492956161499,0.52853888273239136,0.43511500954627991,0.27154684066772461,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/OnTheTelephone=On the Telephone":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.32864287495613098,0.32864287495613098,0.32864287495613098,0.32864287495613098,0.48571401834487915,0.53071397542953491,0.53071397542953491,0.48357096314430237,0.32864287495613098,0.32864287495613098,0]},"$$$/app/Presets/EssentialSound/EQPreset/OutsideOfTheRoom=Outside of the Room":{"type":"array::float","value":[0.12099699676036835,0.5,0.79746836423873901,0,0.42539370059967041,0.47865453362464905,0.5,0.5,0.48571401834487915,0.40073278546333313,0.25656309723854065,0.15721426904201508,0.15721426904201508,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/PodcastVoice=Podcast Voice":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.5,0.5,0.5,0.51789408922195435,0.50770342350006104,0.5,0.51789408922195435,0.528114914894104,0.5102812647819519,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/SubtleBoostFemale=Subtle Boost (Female)":{"type":"array::float","value":[0.096553400158882141,0.5,0.29113924503326416,0,0.5,0.5,0.5,0.5,0.5,0.51933407783508301,0.54642897844314575,0.52706766128540039,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/SubtleBoostMale=Subtle Boost (Male)":{"type":"array::float","value":[0.096553400158882141,0.5,0.29113924503326416,0,0.5,0.5,0.5,0.5,0.5,0.5135338306427002,0.54642897844314575,0.51933407783508301,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/ThatPublicRadioSound=That Public Radio Sound":{"type":"array::float","value":[0.12099699676036835,0.5,0.79746836423873901,0,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.36334344744682312,0.49468311667442322,0.5,0.5,0.5,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/VocalPresence=Vocal Presence":{"type":"array::float","value":[0.096553400158882141,0.5,0.32489451766014099,0,0.3572143018245697,0.3572143018245697,0.46428570151329041,0.47857141494750977,0.4763694703578949,0.49570354819297791,0.55924957990646362,0.56523394584655762,0.50859290361404419,0.46992480754852295,0]}}}},"model_loudness":{"DefaultLoudness":{"type":"float","value":-23},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_restoration":{"ReduceNoiseMaxSetting":{"type":"array::float","value":[1,0,0,0,0]},"ReduceNoiseMinSetting":{"type":"array::float","value":[0,0,0,0,0]},"ReduceReverbMaxSetting":{"type":"array::float","value":[1,0,0,0,0]},"ReduceReverbMinSetting":{"type":"array::float","value":[0,0,0,0,0]},"ReduceRumbleMaxSetting":{"type":"array::float","value":[1,0.0094864126294851303,0.375,0,0,0.00083333335351198912,1,0,1,0.0390625,0.00083408987848088145,0,0.0041666668839752674,0.00022554649331141263,0.0046875001862645149,0.75,0.0052083334885537624,0.75,1,0.75,0.0040520834736526012,0.75,0.0042629167437553406,0.00022554649331141263,0.0064883334562182426,0.00022554649331141263,0.006866666954010725,0.75,0.0071704164147377014,0.00022554649331141263,0.01041458360850811,0.00022554649331141263,0.010900000110268593,0.75,0.011407917365431786,0.00022554649331141263,0.015606249682605267,0.00022554649331141263,0.016333334147930145,0.75,0.017094582319259644,0.00022554649331141263,0.026243748143315315,0.00022554649331141263,0.0274666678160429,0.75,0.028746666386723518,0.00022554649331141263,0.041658751666545868,0.00022554649331141263,0.043600000441074371,0.75,0.045631669461727142,0.00022554649331141263,0.062424581497907639,0.00022554649331141263,0.065333336591720581,0.75,0.068377502262592316,0.00022554649331141263,0.10497540980577469,0.00022554649331141263,0.1098666712641716,0.75,0.11498583108186722,0.00022554649331141263,0.16663584113121033,0.00022554649331141263,0.17440000176429749,0.75,0.18252624571323395,0.00022554649331141263,0.91874998807907104,0.00022554649331141263,1,0.00022554649331141263,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"ReduceRumbleMinSetting":{"type":"array::float","value":[1,0.0094864126294851303,0.375,0,0,0.00083333335351198912,1,0,1,0.0390625,0.00083408987848088145,0.75,0.0041666668839752674,0.75,0.0046875001862645149,0.75,0.0052083334885537624,0.75,1,0.75,0.91874998807907104,0.61237245798110962,1,0.61237245798110962,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"ReduceSibilanceMaxSetting":{"type":"array::float","value":[0.5,0.19983997941017151,0.18367347121238708,0.26086956262588501,0.52702701091766357,0,1,0,0,0,0,0.75,1,1,0.40000000596046448]},"ReduceSibilanceMinSetting":{"type":"array::float","value":[0.875,0.19983997941017151,0.18367347121238708,0.19130434095859528,0.25675675272941589,0,1,0,0,0,0,0.75,1,1,0.40000000596046448]}},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/Auditorium=Auditorium":{"type":"array::float","value":[0.013047545216977596,0.15895412862300873,1,0.89999997615814209,0,0.52007436752319336,0.41663265228271484,0.46000000834465027,0.5,0.73000001907348633,0.15999999642372131,0.75376886129379272,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/Church=Church":{"type":"array::float","value":[0.032663315534591675,0.39939939975738525,0.79797977209091187,0.25,0.5,0.5,0.2297959178686142,0.72000002861022949,0.5,0.62999999523162842,0.87999999523162842,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/LargeReflectiveRoom=Large Reflective Room":{"type":"array::float","value":[0.0074449013918638229,0.098988421261310577,0.79890537261962891,0.89999997615814209,0.10000000149011612,0.40110713243484497,0.060284845530986786,0.27522978186607361,0.5,0.73000001907348633,0.31999999284744263,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideTheClub=Outside the Club":{"type":"array::float","value":[0.020615793764591217,0.050136558711528778,0.69696998596191406,0.25,0.094355784356594086,0.22242647409439087,0.1071428582072258,0.2800000011920929,0.5,0.73000001907348633,0.46000000834465027,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/SmallDryRoom=Small Dry Room":{"type":"array::float","value":[0.24623115360736847,0.69975000619888306,0.29292899370193481,0.40000000596046448,0.20000000298023224,0.40000000596046448,0.039285715669393539,0.10000000149011612,0.5,1,0.5,0.75376886129379272,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/ThickenVoice=Thicken Voice":{"type":"array::float","value":[0.19597999751567841,0.23931467533111572,0.69696998596191406,0.25,0.5,0.53999996185302734,0.020408162847161293,0.20945435762405396,0.5,1,0.34999999403953552,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WarmRoom=Warm Room":{"type":"array::float","value":[0.020100502297282219,0.074074074625968933,0.49494948983192444,0.40000000596046448,0.74960309267044067,0.40000000596046448,0.1239795908331871,0.67000001668930054,0.5,0.85000002384185791,0.56000000238418579,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WarmVoice=Warm Voice":{"type":"array::float","value":[0.19597989320755005,0.89989989995956421,0,0.40000000596046448,0.20000000298023224,0.40000000596046448,0.10204081982374191,0.090000003576278687,0.5,1,0.30000001192092896,0.25125628709793091,0.03125]}}}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"353811fa-4179-435e-8e5e-23028ba15a7a","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"generic","Models":{"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"31ba96a6-5d3e-4d89-b1e1-1dbe3c055d0c","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"music","Models":{"model_ducking":{},"model_duration":{},"model_loudness":{"DefaultLoudness":{"type":"float","value":-25},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"cea63332-1adc-44a9-a6eb-5490f965859b","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"sfx","Models":{"model_loudness":{"DefaultLoudness":{"type":"float","value":-21},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_pan":{},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/HeavyReverb=Heavy Reverb":{"type":"array::float","value":[0.13316600024700165,0.29929900169372559,1,0.95999997854232788,0.85000002384185791,0.5,0.51530599594116211,0.30000001192092896,0.5,0.5,0.5,0.25125628709793091,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/LightReverb=Light Reverb":{"type":"array::float","value":[0.095477402210235596,0.29929900169372559,0.090909101068973541,1,1,0.80000001192092896,0.22449000179767609,0.60000002384185791,0.5,0.69999998807907104,0.30000001192092896,0.25125628709793091,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideReverb=Outside Reverb":{"type":"array::float","value":[0.091708503663539886,0.043893899768590927,1,0.5,0.20000000298023224,0.80000001192092896,0.18367299437522888,1,0.5,0,0.80000001192092896,0.25125628709793091,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/RoomReverb=Room Reverb":{"type":"array::float","value":[0.057788901031017303,0.44944900274276733,0.49494898319244385,0.89999997615814209,0.10000000149011612,0.15000000596046448,0.081632703542709351,0.40000000596046448,0.5,0.80000001192092896,0.20000000298023224,0.25125628709793091,0.0625]}}}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1}]</property>
+    </properties>
+  </session>
+
+  <files>
+    <file absolutePath="F:\project_AI\sound\BGM\D_elf\neehiorinisinaide\Conformed Files\Hatsune_Miku_Alone_Remix_free_ver 48000 1.wav" id="0" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" recoveryID="e1e093b5-a698-4ad1-8fef-c50ee8ad410d" relativePath="../Conformed Files/Hatsune_Miku_Alone_Remix_free_ver 48000 1.wav"/>
+    <file absolutePath="F:\project_AI\sound\BGM\D_elf\neehiorinisinaide\Conformed Files\レコードプレイヤー・再生ループ 48000 1.wav" id="1" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" recoveryID="54645ab2-0891-4c90-9398-340d41f17870" relativePath="../Conformed Files/レコードプレイヤー・再生ループ 48000 1.wav"/>
+  </files>
+
+  <audioDevice inputID="FA22ADEC-56A1-4276-9EA4-7E460D75F30E" outputID="17C92079-2199-459E-826D-F2905115BBE0">
+    <inputPort id="1" name="デフォルトのステレオ入力"/>
+    <inputPort id="2" name="[01M] ライン (4- AG06/AG03) 1"/>
+    <inputPort id="3" name="[02M] ライン (4- AG06/AG03) 2"/>
+    <inputPort id="4" name="[01S] ライン (4- AG06/AG03) 1"/>
+    <outputPort id="1" name="デフォルト出力"/>
+    <outputPort id="2" name="[01M] ライン (4- AG06/AG03) 1"/>
+    <outputPort id="3" name="[02M] ライン (4- AG06/AG03) 2"/>
+    <outputPort id="4" name="デフォルトのステレオ出力"/>
+    <outputPort id="5" name="[01S] ライン (4- AG06/AG03) 1"/>
+    <outputPort id="6" name="デフォルトのサラウンド出力"/>
+  </audioDevice>
+
+</sesx>

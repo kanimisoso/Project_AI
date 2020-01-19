@@ -5,7 +5,7 @@
   <session appBuild="13.0.1.35" appVersion="13.0" audioChannelType="stereo" bitDepth="24" duration="22056809" sampleRate="48000">
     <tracks>
       <audioTrack automationLaneOpenState="false" id="10001" index="1" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="160" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="160" trackMinimized="false">
           <name>トラック 1</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -76,7 +76,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="0eef72d6-096f-4efb-9a6d-e040d07d2dd2" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="0ad74da2-32c7-4786-b83d-6889b84e6977" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -97,7 +97,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="e9f33fcd-8043-4c0f-9db3-baf6fc6cc5bf" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="06d6f13e-1c10-4556-a2b6-1216b711a31d" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -118,7 +118,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="8e5c3794-2624-4524-b690-ffae3224073d" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="ea728d08-3a03-4450-82dc-540455ba2197" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -138,7 +138,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="eb9329ca-a05d-4c8e-bc5c-284d643b7dad" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="a9b30e1c-c453-41ed-b4b0-adc350a33867" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -158,7 +158,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="adedcd28-a336-44b4-80e8-ce793793945b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="8fabf330-6568-483d-aec2-2f2b30927302" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -178,7 +178,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="c8a31ed4-cf6a-4d28-811b-6c60436db534" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="f56c8d4f-9a3c-4039-b250-342f8b63725a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -198,7 +198,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="54cfb3e8-ef6a-46b5-bfd8-f1d9988f0c64" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="d06fce3d-4322-46ec-9058-c6f8069341a2" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -216,7 +216,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="267" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="267" trackMinimized="false">
           <name>トラック 2</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -287,7 +287,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="929d8855-ec5a-434f-b36c-da9d4a5fee9c" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="22239c78-70bb-477b-8f17-d343417c62a0" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -308,7 +308,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="41243210-ce51-4411-8aa1-46624f950e92" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="53f20145-a200-45c0-9958-fa37b59126ec" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -328,7 +328,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="e146e50f-f6f9-4cb2-8dc8-a82122c308a0" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="1d51ab1b-4d36-40ee-bf3f-8fd11e1dadda" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -349,7 +349,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="1c9010a6-66b7-47a3-af39-95a2e96d1e8f" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="757e8c58-f28e-4951-a685-cbd40db9427f" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -370,7 +370,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="f9e3586a-f812-4024-9318-97e1bd2ba56a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="5481d5b6-2b94-4837-ab6b-018dbd511742" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -388,7 +388,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10003" index="3" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="51" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="51" trackMinimized="false">
           <name>トラック 3</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -459,7 +459,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="25c2d53a-1d7f-4360-9fd1-df3af7726a08" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="c283126a-aed6-45bc-b1b7-7948bcecd6ce" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -480,7 +480,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="bc44774f-6a90-4a9b-b711-7c81a58fc6b1" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="a1dfdc58-6008-4d3e-84ff-e00181c423e5" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -501,7 +501,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="635b870a-7571-4af0-9ee5-aef1ec329e18" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="8e17861f-e80a-4935-b98a-29fde90742cc" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -519,7 +519,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10004" index="4" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="182" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="182" trackMinimized="false">
           <name>トラック 4</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -590,7 +590,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="638f061d-3fb0-4ff8-b2e5-10d0154a871a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="5cbc5ab4-47bc-4987-a2d0-a611ec3318b3" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -611,7 +611,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="ee2ed14d-67b1-4bae-885a-74f935f798eb" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="1ab40053-d0d8-4499-aee1-58b826a2682f" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -631,7 +631,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="aee4f075-e4af-48b8-a08a-6e36068e7ce9" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="62468594-13eb-4f18-beb9-bdcc993d9480" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -651,7 +651,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="eacab4d5-42fe-4c52-9a15-c8d4004c9f51" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="3d7ad2b2-5fd7-4505-864d-83f6d9e394ec" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -671,7 +671,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="ae3bf025-d090-4117-af18-d181dc44ce6a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="1d3dfdc1-cfda-4d53-a352-17217b64dfc8" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -691,7 +691,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="d7e34eae-8472-4022-9d29-83df8af8d1ed" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="637e8566-59b0-470b-a719-c105184c602d" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -709,7 +709,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10005" index="5" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="294" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="294" trackMinimized="false">
           <name>トラック 5</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -780,7 +780,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="b62776eb-293c-4c00-92d2-a8beccf4a2ac" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="80b3b41d-665e-4946-b1b5-a182e9d5b55d" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -801,7 +801,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="a3670d45-6e72-47f0-950d-7811d8f811e0" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="e9ffe4f6-cb4b-4c5c-8321-1a6ca5b8092e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -821,7 +821,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="b96d3fdf-1787-4000-9ace-7d9c7c578f0e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="722d9f91-218b-43ac-b19e-199b64ae1c7e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -842,7 +842,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="8d661581-54c7-4738-8f38-3db78da1da35" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="5e8a9688-f93b-4c37-a0a5-00be32daee21" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -859,7 +859,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10006" index="6" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="92" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="92" trackMinimized="false">
           <name>トラック 6</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -930,7 +930,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="12b83c4b-7cda-40e6-b6ab-11c414a60bde" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="5f48078c-314a-4802-a3aa-47333f6e9fe1" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -951,7 +951,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="5ecaaeb7-c8e4-47c9-aa0a-dbe2b10c7ae1" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="249f0f02-1a88-45b0-aefa-26ba6f222a25" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -969,7 +969,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10020" index="7" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="319.00000227325114110499271191656589508056640625" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="319.00000227325114110499271191656589508056640625" trackMinimized="false">
           <name>トラック 15</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -1040,7 +1040,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="ccbb5c6b-1d38-4f5d-84f4-f121ecfe65c3" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="aab3f7cd-81b6-4b50-a0d9-a5e60271ac2e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1061,7 +1061,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="de02bf11-dcf6-40b3-9382-f6f9237aff62" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="f804e179-5ed1-46a9-9d18-e208bf21d972" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1081,7 +1081,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="ae8f402c-5a4b-4668-a842-08ba88f6a7dd" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="3570a50c-94fe-43d3-98d6-db332ac5d4e2" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1098,7 +1098,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10007" index="8" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="211" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="211" trackMinimized="false">
           <name>voice_01</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -1169,7 +1169,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="9391faea-fa18-456d-9cc6-69070a068a76" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="3812b31e-4351-4c5f-b4c1-fa27754fd535" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1187,7 +1187,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10025" index="9" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="211" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="211" trackMinimized="false">
           <name>voice_01 1</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -1258,7 +1258,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="b19acdf2-988c-409f-913f-0b651516c9d6" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="a1f4eda6-70a9-4435-aa1f-6d59e07bf9ba" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1275,8 +1275,8 @@
           </channelMap>
         </audioClip>
       </audioTrack>
-      <audioTrack automationLaneOpenState="false" id="10026" index="10" select="true" visible="true">
-        <trackParameters trackHeight="33" trackHue="211" trackMinimized="false">
+      <audioTrack automationLaneOpenState="false" id="10026" index="10" select="false" visible="true">
+        <trackParameters trackHeight="98" trackHue="211" trackMinimized="false">
           <name>voice_01 1 1</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -1347,7 +1347,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="bd2378b7-02e5-44f9-b890-a984b03f4444" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="b6501d5e-9144-40a8-b993-ac6397fd901a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1365,7 +1365,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10013" index="12" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="267" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="267" trackMinimized="false">
           <name>トラック 13</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -1437,7 +1437,7 @@
             <parameter index="0" name="volume" parameterValue="0.015843801200389862060546875"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="786febef-864d-41c3-8981-273d1c974a91" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="4d142da7-7049-4ace-b0ca-23566bc30d51" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1463,7 +1463,7 @@
             <parameter index="0" name="volume" parameterValue="0.015843801200389862060546875"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="f0c96df7-5977-4694-a714-fc64ffeeb86e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="cd13d25b-3dab-4fda-9d2c-fe5c5eac8833" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1481,7 +1481,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10008" index="13" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="326" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="326" trackMinimized="false">
           <name>トラック 8</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -1552,7 +1552,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="88a6e18b-26e3-4dda-a788-766ac774375a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="682fd84b-3a8b-4f71-86a3-0b37d8cc6fb5" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1569,7 +1569,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10009" index="14" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="326" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="326" trackMinimized="false">
           <name>トラック 9</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -1581,7 +1581,7 @@
           </component>
           <component componentGuid="0031151a-2afe-4302-9d18-6ccb61b464b6" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="1"/>
           </component>
           <component componentGuid="7872448c-624b-4f76-b3b6-ff5007c20c35" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="パン" parameterValue="0"/>
@@ -1640,7 +1640,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="5e956ce3-dbf3-4f53-87d8-d367be594140" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="23b9989e-41c6-45f6-ac2a-cef23f2b801b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1657,7 +1657,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10035" index="15" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="211" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="211" trackMinimized="false">
           <name>トラック 7</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -1669,7 +1669,7 @@
           </component>
           <component componentGuid="80c9419c-3432-4bad-953b-cff476cad61e" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="1"/>
           </component>
           <component componentGuid="fd4aaa99-6740-4754-9ccc-614867b9f456" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="パン" parameterValue="0"/>
@@ -1728,7 +1728,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="ea1614e6-8523-4d8a-8740-81e60ed6eec6" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="5bf7311b-48db-4785-9c07-764ec63f1fba" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1746,7 +1746,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10010" index="16" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="132" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="132" trackMinimized="false">
           <name>トラック 10</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -1758,7 +1758,7 @@
           </component>
           <component componentGuid="ec9f7cc4-b3ed-418f-a1a2-9b65caa4acd6" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentGuid="c91afc01-2b58-4ce0-ae52-66b5a7db8540" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="パン" parameterValue="0"/>
@@ -1817,7 +1817,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="0267c177-51d7-4ae0-a2ac-2c4955056e98" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="941fa607-2289-4834-8597-580358b1896d" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1838,7 +1838,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="aab7ef0f-f2c0-4025-8316-12eb9214487a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="c36f77bf-5922-4296-85c6-36633ab73fb3" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1855,7 +1855,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10019" index="17" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="132" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="132" trackMinimized="false">
           <name>トラック 14</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -1867,7 +1867,7 @@
           </component>
           <component componentGuid="c11896a2-f175-4c1c-83d3-49fe3b98f455" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="1"/>
           </component>
           <component componentGuid="525aaefd-e09a-4a5e-9b03-0b3640bfb947" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="パン" parameterValue="0"/>
@@ -1926,7 +1926,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="e4ad0588-a20e-45c4-89f9-36861f92d7bc" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="aa14e600-f5fd-4d3e-b880-7f1863a0fb57" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1947,7 +1947,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="637ab5c9-5183-4c98-8956-2621a2cc8ff6" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="42bd795e-b6dc-4e8a-a897-3f9c0e3fa234" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -1965,7 +1965,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10011" index="18" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="32" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="32" trackMinimized="false">
           <name>トラック 11</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -2033,7 +2033,7 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
         <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="10281887" fileID="23" hue="-1" id="0" lockedInTime="false" looped="false" name="quiet-room-1 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="9473044" startPoint="808843" zOrder="45">
           <component componentGuid="8036c4ad-7fe8-4368-aaae-63bf678fef16" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
-            <parameter index="0" name="volume" parameterValue="0.719491779804229736328125">
+            <parameter index="0" name="volume" parameterValue="0.2750211060047149658203125">
               <parameterKeyframes enableSplines="false" readOnly="false">
                 <parameterKeyframe sampleOffset="50868" select="false" type="linear" value="0.5609195232391357421875"/>
                 <parameterKeyframe sampleOffset="105817" select="false" type="linear" value="0.64999997615814208984375"/>
@@ -2049,7 +2049,7 @@
             </parameter>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="60c1aa5b-fec8-45bb-bd7d-5829cf1bf7e7" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="884e760e-4135-4d3c-ad7c-d9c2e9a7be74" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -2067,14 +2067,14 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10012" index="19" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="160" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="160" trackMinimized="false">
           <name>トラック 12</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
           <trackOutput outputID="10000" type="trackID"/>
           <trackInput inputID="1"/>
           <component componentGuid="3997b919-25bc-4cf4-8cc3-d07ddbbbde0e" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
-            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="0" name="volume" parameterValue="0.555904209613800048828125"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
           <component componentGuid="6ea4d702-9ca0-4857-86c5-d02783a574c2" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
@@ -2138,7 +2138,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="da96439c-1377-493b-9335-6d9b87d630a1" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="858c65f6-ceb7-4dda-93f1-26edbb6ddae2" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -2159,8 +2159,97 @@
           </channelMap>
         </audioClip>
       </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10041" index="20" select="true" visible="true">
+        <trackParameters trackHeight="98" trackHue="326" trackMinimized="false">
+          <name>トラック 17</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="5911dec6-a7f4-44cf-a7f4-a1ac3c7cc0bd" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.065313063561916351318359375"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="20fc33ce-3082-47bf-87db-f840f4a0e0f0" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="7c06e772-b808-4c95-a5fb-7f30b7a91b67" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <component componentGuid="078e1d79-ecea-45e2-a59a-8c7f07af056b" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="ローシェルビング周波数" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="ローシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="2" name="ハイシェルビング周波数" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="ハイシェルビングゲイン" parameterValue="0.5"/>
+            <parameter index="4" name="EQ バンド 1 センター周波数" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ バンド 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ バンド 1 ゲイン" parameterValue="0.5"/>
+            <parameter index="7" name="EQ バンド 1 有効" parameterValue="1"/>
+            <parameter index="8" name="EQ バンド 2 センター周波数" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ バンド 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ バンド 2 ゲイン" parameterValue="0.5"/>
+            <parameter index="11" name="EQ バンド 2 有効" parameterValue="1"/>
+            <parameter index="12" name="EQ バンド 3 センター周波数" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ バンド 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ バンド 3 ゲイン" parameterValue="0.5"/>
+            <parameter index="15" name="EQ バンド 3 有効" parameterValue="1"/>
+            <parameter index="16" name="EQ バンド 4 センター周波数" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ バンド 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ バンド 4 ゲイン" parameterValue="0.5"/>
+            <parameter index="19" name="EQ バンド 4 有効" parameterValue="1"/>
+            <parameter index="20" name="EQ バンド 5 センター周波数" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ バンド 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ バンド 5 ゲイン" parameterValue="0.5"/>
+            <parameter index="23" name="EQ バンド 5 有効" parameterValue="1"/>
+            <parameter index="24" name="マスターゲイン" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="ローシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="27" name="ハイシェルビングフィルター次数" parameterValue="0"/>
+            <parameter index="28" name="ノイズレスモード" parameterValue="0"/>
+            <parameter index="29" name="ローシェルビング有効" parameterValue="1"/>
+            <parameter index="30" name="ハイシェルビング有効" parameterValue="1"/>
+            <parameter index="31" name="オリジナルサンプルレート" parameterValue="0.25"/>
+            <parameter index="32" name="EQ バンド 1 バンド幅" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ バンド 2 バンド幅" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ バンド 3 バンド幅" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ バンド 4 バンド幅" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ バンド 5 バンド幅" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="ハイパスフィルター有効" parameterValue="0"/>
+            <parameter index="38" name="ハイパスカットオフ周波数" parameterValue="0"/>
+            <parameter index="39" name="ハイパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="ローパスフィルター有効" parameterValue="0"/>
+            <parameter index="41" name="ローパスカットオフ周波数" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="ローパススロープ" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="バイパス" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="7860751" fileID="25" hue="-1" id="0" lockedInTime="false" looped="false" name="VSQ_MUSIC_003 48000 3" offline="false" select="true" sourceInPoint="0" sourceOutPoint="3727777" startPoint="4132974" zOrder="48">
+          <component componentGuid="59c9c63c-3277-432d-b8ab-8751f6623c72" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="5408a4ad-f977-4d63-9681-36b52a81a611" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="7d4a4077-9906-4e52-a2be-d24d3ac2f4df" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="パン" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="2323475" shape="14" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="3727777" shape="13" startPoint="2323476" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
       <busTrack automationLaneOpenState="false" id="10027" index="11" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="-1" trackMinimized="false">
+        <trackParameters trackHeight="98" trackHue="-1" trackMinimized="false">
           <name>speaker</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
@@ -2255,8 +2344,8 @@
         </effectsRack>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </busTrack>
-      <masterTrack automationLaneOpenState="false" id="10000" index="20" select="false" visible="true">
-        <trackParameters trackHeight="33" trackHue="-1" trackMinimized="false">
+      <masterTrack automationLaneOpenState="false" id="10000" index="21" select="false" visible="true">
+        <trackParameters trackHeight="98" trackHue="-1" trackMinimized="false">
           <name>マスター</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
@@ -2324,10 +2413,10 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </masterTrack>
     </tracks>
-    <sessionState ctiPosition="0" smpteStart="0">
-      <selectionState selectionDuration="0" selectionStart="0"/>
-      <viewState horizontalViewDuration="8868696" horizontalViewStart="0" trackControlsWidth="224" verticalScrollOffset="0"/>
-      <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatBarsAndBeats"/>
+    <sessionState ctiPosition="1330218" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="1330218"/>
+      <viewState horizontalViewDuration="12469223" horizontalViewStart="240698" trackControlsWidth="224" verticalScrollOffset="-660"/>
+      <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatTimeCode"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3" playOverlappingClips="false"/>
     </sessionState>
     <xmpMetadata><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
@@ -2342,9 +2431,9 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition 13.0 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2019-12-30T16:55:37+09:00</xmp:CreateDate>
-         <xmp:MetadataDate>2020-01-17T01:11:52+09:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2020-01-17T01:11:52+09:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:9380a2e4-33df-5541-b3bd-5ef0858fd5d6</xmpMM:InstanceID>
+         <xmp:MetadataDate>2020-01-17T21:55:06+09:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2020-01-17T21:55:06+09:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:560371e6-1e26-a141-84f8-5dfdcacb0ed8</xmpMM:InstanceID>
          <xmpMM:DocumentID>xmp.did:dfd58704-e09d-0442-a3da-d626aee827b0</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:017cf8cf-d5f1-2742-a4d9-382e4f6def59</xmpMM:OriginalDocumentID>
          <xmpMM:History>
@@ -2493,6 +2582,20 @@
                   <stEvt:action>saved</stEvt:action>
                   <stEvt:instanceID>xmp.iid:9380a2e4-33df-5541-b3bd-5ef0858fd5d6</stEvt:instanceID>
                   <stEvt:when>2020-01-17T01:11:52+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 13.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5b007637-a4a6-cc43-a501-3a972f56c687</stEvt:instanceID>
+                  <stEvt:when>2020-01-17T21:55:06+09:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 13.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:560371e6-1e26-a141-84f8-5dfdcacb0ed8</stEvt:instanceID>
+                  <stEvt:when>2020-01-17T21:55:06+09:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition 13.0 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
@@ -2650,6 +2753,7 @@
     <file absolutePath="D:\git_Project_AI\sound\読み込まれたファイル\枯れ葉のように.mp3" id="22" importerPrivateSettings="BitsPerSecond:0:320000;CompressionQuality:0:4;CompressionType:0:0;" mediaHandler="AmioMP3" relativePath="読み込まれたファイル/枯れ葉のように.mp3"/>
     <file absolutePath="D:\git_Project_AI\sound\読み込まれたファイル\quiet-room-1 48000 1.wav" id="23" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="読み込まれたファイル/quiet-room-1 48000 1.wav"/>
     <file absolutePath="D:\git_Project_AI\sound\読み込まれたファイル\VSQSE_0299_PC_machine_noise 48000 1.wav" id="24" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="読み込まれたファイル/VSQSE_0299_PC_machine_noise 48000 1.wav"/>
+    <file absolutePath="D:\git_Project_AI\sound\Conformed Files\VSQ_MUSIC_003 48000 3.wav" id="25" mediaHandler="AmioWav" relativePath="Conformed Files/VSQ_MUSIC_003 48000 3.wav"/>
   </files>
 
   <audioDevice inputID="1D58A5F2-E70A-43C6-A712-7194CEDE46CE" outputID="2760083D-A359-44AC-913D-42FB2BC2C842">

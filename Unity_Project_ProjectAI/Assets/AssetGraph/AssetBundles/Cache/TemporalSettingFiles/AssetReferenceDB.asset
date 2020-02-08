@@ -13,96 +13,12 @@ MonoBehaviour:
   m_Name: AssetReferenceDB
   m_EditorClassIdentifier: 
   m_assets:
-  - m_assetDatabaseId: af2e5daa4a992c647bd6a4a3c426dca6
-    m_importFrom: Assets/AddressableAssetsData
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 2398227bb3eb98547af7e7c35d3c4c49
-    m_importFrom: Assets/AddressableAssetsData/AssetGroupTemplates
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 404c2cebfce0fab4d9993ad7ce5e74ca
-    m_importFrom: Assets/AddressableAssetsData/AssetGroupTemplates/Packed Assets.asset
+  - m_assetDatabaseId: 66be18e632e835b49ba3cbd377a622d4
+    m_importFrom: Assets/Scenes/character/New Timeline.playable
     m_exportTo: 
     m_variantName: 
   - m_assetDatabaseId: cd2cffadc131aee4c99f43ffbf75f826
     m_importFrom: Assets/AssetGraph/AssetBundles/Cache/TemporalSettingFiles/AssetReferenceDB.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 1a0cf62994b5b294891f428dd10cf4c1
-    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/TemporalSettingFiles
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: c086fae91bd5b65449d80947ada55c6f
-    m_importFrom: Assets/AssetGraph
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 38c4f2cb898c4ec458d5baed65754b11
-    m_importFrom: Assets/AssetGraph/AssetBundles/Cache
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: e8f5443c3ce31594cbf87859c35c0b51
-    m_importFrom: Assets/AssetGraph/AssetBundles
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: d7dc32879745b2a439cbaa22147c6fd6
-    m_importFrom: Assets/AddressableAssetsData/DataBuilders/BuildScriptFastMode.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: f49e282e014df4947b1ea8232ce8d360
-    m_importFrom: Assets/AddressableAssetsData/DataBuilders
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 3ecda6e489460a649bdf8423e5f1a83e
-    m_importFrom: Assets/AddressableAssetsData/DataBuilders/BuildScriptVirtualMode.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 125480f6f6485174f9d0dedbbf610f4c
-    m_importFrom: Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedPlayMode.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 4b0b94fb0ae859d4d96cb288dcc1839a
-    m_importFrom: Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedMode.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: a02bc123927a1154f929c22afc4dcd4c
-    m_importFrom: Assets/AddressableAssetsData/AddressableAssetSettings.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 1e34dd217299fc34c8aae95afb09733a
-    m_importFrom: Assets/AddressableAssetsData/AssetGroups
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: a5be655bb5039ba43837895da52f9b78
-    m_importFrom: Assets/AddressableAssetsData/AssetGroups/Built In Data.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 614fad24cc0d3e3418c63fbfead3c1d7
-    m_importFrom: Assets/AddressableAssetsData/AssetGroups/Schemas
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: ab289596951e95445b91d0dd2c5638f5
-    m_importFrom: Assets/AddressableAssetsData/AssetGroups/Schemas/259bf8877b11fd64ea0f22019a8d2f98_PlayerDataGroupSchema.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 4141e309dd5662a4a9631edf57f91912
-    m_importFrom: Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: ec7eb054ad18cfa49806710c31dbbd42
-    m_importFrom: Assets/AddressableAssetsData/AssetGroups/Schemas/c01bcf7d353b46545be42fe63852a4f1_ContentUpdateGroupSchema.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 92c0a59aa237b474982f38aabcc8e965
-    m_importFrom: Assets/AddressableAssetsData/AssetGroups/Schemas/c01bcf7d353b46545be42fe63852a4f1_BundledAssetGroupSchema.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 15b30ca320f482643bedd1e80b089f65
-    m_importFrom: Assets/AddressableAssetsData/DefaultObject.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 0000000000000000b000000000000000
-    m_importFrom: ProjectSettings/EditorBuildSettings.asset
     m_exportTo: 
     m_variantName: 
   m_version: 2

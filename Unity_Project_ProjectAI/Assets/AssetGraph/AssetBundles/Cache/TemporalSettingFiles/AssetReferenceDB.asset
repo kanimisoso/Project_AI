@@ -13,12 +13,460 @@ MonoBehaviour:
   m_Name: AssetReferenceDB
   m_EditorClassIdentifier: 
   m_assets:
+  - m_assetDatabaseId: 0dc75b34a006d47f48c004031e6ef14d
+    m_importFrom: Packages/com.unity.settings-manager/Editor/UserSettingsProvider.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 00000000000000002000000000000000
+    m_importFrom: ProjectSettings/InputManager.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 00000000000000004000000000000000
+    m_importFrom: ProjectSettings/ProjectSettings.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 0000000000000000b000000000000000
+    m_importFrom: ProjectSettings/EditorBuildSettings.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 0000000000000000c000000000000000
+    m_importFrom: ProjectSettings/EditorSettings.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 7df47400cf63d76498e210cf3e883651
+    m_importFrom: Assets/Scenes/character/project_ai_maya_setup_v5.fbm/F00_000_Hair_00_nml.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 23d138000eb3cfe44852f32f5277f21b
+    m_importFrom: Assets/Scenes/character/material/F00_002_01_tops_01_clos.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: d38d5a5256466c349a81338d02621916
+    m_importFrom: Packages/com.unity.scriptablebuildpipeline/package.json
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a02bc123927a1154f929c22afc4dcd4c
+    m_importFrom: Assets/AddressableAssetsData/AddressableAssetSettings.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: f4754f331fa95e94d845a93e80aebe3f
+    m_importFrom: Assets/Scenes/character/sample/7433854103585430808.prefab
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 15b30ca320f482643bedd1e80b089f65
+    m_importFrom: Assets/AddressableAssetsData/DefaultObject.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: ec7eb054ad18cfa49806710c31dbbd42
+    m_importFrom: Assets/AddressableAssetsData/AssetGroups/Schemas/c01bcf7d353b46545be42fe63852a4f1_ContentUpdateGroupSchema.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 3ecda6e489460a649bdf8423e5f1a83e
+    m_importFrom: Assets/AddressableAssetsData/DataBuilders/BuildScriptVirtualMode.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 1f594935d7137c648a990f7d9d2eb01f
+    m_importFrom: Assets/Scenes/character/project_ai_maya_setup_v5.fbx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a49617460d7b2ff4f8daaa78ff5b3401
+    m_importFrom: Assets/Scenes/character/material/New Material.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: ab289596951e95445b91d0dd2c5638f5
+    m_importFrom: Assets/AddressableAssetsData/AssetGroups/Schemas/259bf8877b11fd64ea0f22019a8d2f98_PlayerDataGroupSchema.asset
+    m_exportTo: 
+    m_variantName: 
   - m_assetDatabaseId: 66be18e632e835b49ba3cbd377a622d4
     m_importFrom: Assets/Scenes/character/New Timeline.playable
     m_exportTo: 
     m_variantName: 
+  - m_assetDatabaseId: 125480f6f6485174f9d0dedbbf610f4c
+    m_importFrom: Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedPlayMode.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 5f87135761c0f52478efceb7c51e8489
+    m_importFrom: Assets/Scenes/character/project_ai_maya_setup_v5.fbm/F00_000_Hair_00_spe.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: ba128457d0ea5e3439dbe4a53b9d1273
+    m_importFrom: Assets/DynamicBone/Demo/c1.fbx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: d7dc32879745b2a439cbaa22147c6fd6
+    m_importFrom: Assets/AddressableAssetsData/DataBuilders/BuildScriptFastMode.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: ea6a68180c5931d479b74d7ee1a5d8c2
+    m_importFrom: Assets/Scenes/character/material/f_hesd_skin.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 4141e309dd5662a4a9631edf57f91912
+    m_importFrom: Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: e0ad6e0991babd14584d86de42fddbe0
+    m_importFrom: Assets/Scenes/character/test00000000000001motion.fbx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 19015a5957bbaa745a61cba005220542
+    m_importFrom: Assets/DynamicBone/Demo/tail.FBX
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 92c0a59aa237b474982f38aabcc8e965
+    m_importFrom: Assets/AddressableAssetsData/AssetGroups/Schemas/c01bcf7d353b46545be42fe63852a4f1_BundledAssetGroupSchema.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a5be655bb5039ba43837895da52f9b78
+    m_importFrom: Assets/AddressableAssetsData/AssetGroups/Built In Data.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 404c2cebfce0fab4d9993ad7ce5e74ca
+    m_importFrom: Assets/AddressableAssetsData/AssetGroupTemplates/Packed Assets.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 4b0b94fb0ae859d4d96cb288dcc1839a
+    m_importFrom: Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedMode.asset
+    m_exportTo: 
+    m_variantName: 
   - m_assetDatabaseId: cd2cffadc131aee4c99f43ffbf75f826
     m_importFrom: Assets/AssetGraph/AssetBundles/Cache/TemporalSettingFiles/AssetReferenceDB.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 84cfba6e9db755a419e01e54eb8e836e
+    m_importFrom: Assets/Scenes/character/project_ai_maya_setup_v5.fbm/F00_000_Hair_00.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: bdbe6feeda2a62b45ad9a4e311031478
+    m_importFrom: Assets/DynamicBone/ReadMe.txt
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 65f6da42729f1e54796b32b19879a66d
+    m_importFrom: Assets/Scenes/New_Room
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: d85c9c1083a6e7c4392b17710fdcc0ff
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Pole_tex_AO.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: d2c918a014fa1c34983be37f5e5041c5
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Pole_tex_MetallicSmoothness.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 67442211bc7a59b4abefe552dc639502
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Door_tex_AO.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: ebd7b611a337878429107861eb66e981
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Roof_tex_AlbedoTransparency.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 599c71412a8751a4eac1ece04af0822c
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Door_tex_Normal.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 49154de17fe9f1d4794a37f0cec1d1cb
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Door_tex_MetallicSmoothness.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 76437233517582740a5d244fc85d5362
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Pole_tex_Normal.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 70928d3307d98a849bf0541f502ef337
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Door_tex_AlbedoTransparency.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: ecee3144db9636e48b99cb8bb8715c0d
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Wall_tpatterm_tex_MetallicSmoothness.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: cef1caa4da63aed46897814d46642640
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Roof_tex_Normal.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 3517e455c12aff0499e6a41f33d08227
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Wall_tpatterm_tex_AO.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: bf6cee952e9e47e45884b88549290cc1
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Roof_tex_MetallicSmoothness.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 31cddde53ef84f74084a4f4a2cc89386
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Beam_tex_MetallicSmoothness.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 838e4206a077db848995c885e5a44cd1
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Wall_tex_AlbedoTransparency.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: b6183d76478926f48962babe1016d271
+    m_importFrom: Assets/Scenes/New_Room/RoomBase20200116.json
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 33cd4b37926608346826ac325c2fb15e
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Beam_tex_AO.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 5732d787536739848816fb8b82b243ec
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Wall_tpatterm_tex_Normal.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 76f0636827b11d64e89317043ba62783
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Wall_tex_MetallicSmoothness.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 514151096f034c04cb916a1e5118d688
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Wall_tex_AO.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: e325ca990df873b4682912f66f371341
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Wall_tex_Normal.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 1b9d7e4bd552c5740ad8690a3228dbd0
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Beam_tex_Normal.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 0182591d3ab711842b73560eee80302d
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Beam_tex_AlbedoTransparency.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 9228c82d21280b64d90b2eca309b92ac
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Pole_tex_AlbedoTransparency.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 1a59a51f18e39634784fd2248fbba804
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Wall_tpatterm_tex_AlbedoTransparency.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 25e440fff108ac2479a32a4bfecbe99d
+    m_importFrom: Assets/Scenes/New_Room/New_Room_Roof_tex_AO.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: cc8b2911b5d78ec40a14ff9ae3220eda
+    m_importFrom: Assets/Scenes/New_Room/Beam_Mat.shadergraph
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: cc8b2911b5d78ec40a14ff9ae3220eda
+    m_importFrom: Assets/Scenes/New_Room/Swich_Shad_ver1.shadergraph
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 4ebba82092790d9468b57072e8675b29
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 1bff531f61a9b944cb5ea511110563a2
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: dfa14dd03d6da44478e0f377c6839b28
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/New Timeline.playable
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 8e771e3222860b6418c8fc8138a4dbda
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/Wall_Beam.shadergraph
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 27cc65625cad779459d71f2a25667028
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/Wall.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 7f4abb92c3b1aed429c440ff8c74adba
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Wall_tex_AlbedoTransparency.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 050d5b53e13d44449bc76655c9313c8b
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Beam_tex_Normal.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 76c1b4c35c37ca947a441ca393cf5763
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/Pole.shadergraph
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: caced2d3d5c7f184abc86dc9ac6fb792
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/RoomBase20191113_2019.json
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 93808ea43e2661546b93eb5a374169d0
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Beam_tex_AlbedoTransparency.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: e47469d47b363a44ea8710fa60cf3422
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Door_tex_AO.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a91d7527f01e1444fa6956a04870cbf1
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Wall_tpatterm_tex_Normal.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: f7a2b837ccc8c9843a93a68557a7ffd9
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/Wall.shadergraph
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: c7967a37ffc4d5740b4082762196b635
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Beam_tex_AO.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: da866c37e749b98469a5f5faa10cd0fc
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Wall_tex_MetallicSmoothness.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 22b32d3721602e046a2ba5841457f4cc
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Wall_tpatterm_tex_AO.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: d7d75c575817d754f9c29180f4433356
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/Door.shadergraph
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: f9b59f672bbc19c48a1e26551aeebdf2
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Wall_tpatterm_tex_MetallicSmoothness.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: b058a877ecb044f40b561fb6167a77ae
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Door_tex_MetallicSmoothness.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: dbb39d48dad489b47978050ed7b24c1c
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/Pole.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 925a016843bf7c545a9e04cf97b3c39a
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Door_tex_AlbedoTransparency.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: aec7c268c604ab641b884bd9008076b3
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Pole_tex_AlbedoTransparency.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 55d2b488620cdaa48b07bea2a8d65429
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Wall_tpatterm_tex_AlbedoTransparency.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: f214cf98bd0483146853704ec37e2a27
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Wall_tex_AO.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a846935938279444693943833ba1df59
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Pole_tex_Normal.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: b072282acf4bb0d49a2411c3ef1a6417
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Door_tex_Normal.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 6467c34a921e3994d8610964ab8b87aa
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/Noise.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 3875a8ea1f6717e41951c3d45567886e
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/Beam.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: ef7e393b1a569484c8e40456994189c9
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/Door.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 0b4935bbcd2e8f743bd0803bf834f435
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/Wall _tpatterm.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 9116bb0c9ef86d745bdcb4ad4441bb18
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Beam_tex_MetallicSmoothness.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: e684375dab212a94e8334c9b064deead
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Pole_tex_AO.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 76b0b28ed85d59742a8638de6a53d262
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Wall_tex_Normal.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a96f080f91e89ee4888526b621828ac6
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture/Room_obj4_Pole_tex_MetallicSmoothness.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: cbcc52cfb4b18364e9a9f47eb883052d
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/Beam.shadergraph
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 4ebba82092790d9468b57072e8675b29
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader/texture
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 1bff531f61a9b944cb5ea511110563a2
+    m_importFrom: Assets/Scenes/New_Room/old_room_Shader
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 582f9cc04b5c0ea4fb68a6953d138ea3
+    m_importFrom: Assets/Scenes/New_Room/Beam.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: c9fba361f4fc42a44bb64e116d973001
+    m_importFrom: Assets/Scenes/New_Room/Door.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: c9fba361f4fc42a44bb64e116d973001
+    m_importFrom: Assets/Scenes/New_Room/Door.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: d7389443e4eefdd4abbfde9179e7c692
+    m_importFrom: Assets/Scenes/New_Room/Pole.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 5f5d62df63d96034186cfaad9ee94c6f
+    m_importFrom: Assets/Scenes/New_Room/Wall.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 5f5d62df63d96034186cfaad9ee94c6f
+    m_importFrom: Assets/Scenes/New_Room/Wall.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 376adbba5d3c35c428238b578aa6d5b8
+    m_importFrom: Assets/Scenes/New_Room/Room_uniob.fbx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: af929921af1b7614480cb8cd91f85036
+    m_importFrom: Assets/Scenes/New_Room/Roof.fbx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 242e2028d7647324ab7444c47e824824
+    m_importFrom: Assets/Scenes/New_Room/Wall_tpatterm.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: add4209016e41b74f954aafc13e46698
+    m_importFrom: Assets/Scenes/New_Room/Roof.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: ad24974f34dc34244abce85e6eda598e
+    m_importFrom: Assets/Scenes/New_Room/Swich_Base.fbx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 4a12b140362a0cd4b877ed1bd6c40f35
+    m_importFrom: Assets/Scenes/New_Room/Swich_Base.mat
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: ad24974f34dc34244abce85e6eda598e
+    m_importFrom: Assets/Scenes/New_Room/Swich_Base.fbx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a7511c9476f3ccd419af5433ede13fdb
+    m_importFrom: Assets/Scenes/New_Room/Swich_Base_Room_Out_tex_AlbedoTransparency.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 5b365f3bfecf11748b9e961eaa9d9522
+    m_importFrom: Assets/Scenes/New_Room/Swich_Base_Room_Out_tex_Normal.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 794d145bff38187478743e51d46db900
+    m_importFrom: Assets/Scenes/New_Room/Swich_Base_Room_Out_tex_MetallicSmoothness.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 4564243aae8c4e24fbb0a317259ff3f4
+    m_importFrom: Assets/Scenes/MaterialTest.unity
     m_exportTo: 
     m_variantName: 
   m_version: 2

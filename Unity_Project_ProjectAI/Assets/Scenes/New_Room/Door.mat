@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Door
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: d7d75c575817d754f9c29180f4433356, type: 3}
   m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -55,7 +55,25 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_3981AE4A_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 599c71412a8751a4eac1ece04af0822c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_9627CFC1_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 49154de17fe9f1d4794a37f0cec1d1cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_C2D6643B_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 70928d3307d98a849bf0541f502ef337, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_FBE43067_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 67442211bc7a59b4abefe552dc639502, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_962BA5B7: 0
+    - Vector1_B5B2EA64: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1

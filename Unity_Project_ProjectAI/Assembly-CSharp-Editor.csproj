@@ -178,11 +178,17 @@
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
       <HintPath>E:/Kanimiso_Project/Git_Ai/Unity_Project_ProjectAI/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+      <HintPath>E:/Kanimiso_Project/Git_Ai/Unity_Project_ProjectAI/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.AssetGraph.Editor">
       <HintPath>E:/Kanimiso_Project/Git_Ai/Unity_Project_ProjectAI/Library/ScriptAssemblies/Unity.AssetGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/Kanimiso_Project/Git_Ai/Unity_Project_ProjectAI/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+      <HintPath>E:/Kanimiso_Project/Git_Ai/Unity_Project_ProjectAI/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ResourceManager">
       <HintPath>E:/Kanimiso_Project/Git_Ai/Unity_Project_ProjectAI/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
